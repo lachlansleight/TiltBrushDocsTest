@@ -1,0 +1,1922 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PanelManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PanelManager
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.PanelManager">
+  
+  
+  <h1 id="TiltBrush_PanelManager" data-uid="TiltBrush.PanelManager" class="text-break">Class PanelManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PanelManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_PanelManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PanelManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_PanelManager_kPlayerPrefAdvancedMode" data-uid="TiltBrush.PanelManager.kPlayerPrefAdvancedMode">kPlayerPrefAdvancedMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string kPlayerPrefAdvancedMode = &quot;AdvancedMode&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_PanelManager_m_Instance" data-uid="TiltBrush.PanelManager.m_Instance">m_Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PanelManager m_Instance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.PanelManager.html">PanelManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_PanelManager_m_PanelMap" data-uid="TiltBrush.PanelManager.m_PanelMap">m_PanelMap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected PanelMapKey[] m_PanelMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.PanelMapKey.html">PanelMapKey</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_PanelManager_m_SweetSpot" data-uid="TiltBrush.PanelManager.m_SweetSpot">m_SweetSpot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanelSweetSpotScript m_SweetSpot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.PanelSweetSpotScript.html">PanelSweetSpotScript</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_PanelManager_m_UxExplorationPrefab" data-uid="TiltBrush.PanelManager.m_UxExplorationPrefab">m_UxExplorationPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject m_UxExplorationPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_PanelManager_IntroSketchbookMode_" data-uid="TiltBrush.PanelManager.IntroSketchbookMode*"></a>
+  <h4 id="TiltBrush_PanelManager_IntroSketchbookMode" data-uid="TiltBrush.PanelManager.IntroSketchbookMode">IntroSketchbookMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IntroSketchbookMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_LastPanelInteractedWith_" data-uid="TiltBrush.PanelManager.LastPanelInteractedWith*"></a>
+  <h4 id="TiltBrush_PanelManager_LastPanelInteractedWith" data-uid="TiltBrush.PanelManager.LastPanelInteractedWith">LastPanelInteractedWith</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel LastPanelInteractedWith { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PanelBorderMeshBaseColor_" data-uid="TiltBrush.PanelManager.PanelBorderMeshBaseColor*"></a>
+  <h4 id="TiltBrush_PanelManager_PanelBorderMeshBaseColor" data-uid="TiltBrush.PanelManager.PanelBorderMeshBaseColor">PanelBorderMeshBaseColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color PanelBorderMeshBaseColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PanelBorderMeshOutlineColor_" data-uid="TiltBrush.PanelManager.PanelBorderMeshOutlineColor*"></a>
+  <h4 id="TiltBrush_PanelManager_PanelBorderMeshOutlineColor" data-uid="TiltBrush.PanelManager.PanelBorderMeshOutlineColor">PanelBorderMeshOutlineColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color PanelBorderMeshOutlineColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PanelHighlightActiveColor_" data-uid="TiltBrush.PanelManager.PanelHighlightActiveColor*"></a>
+  <h4 id="TiltBrush_PanelManager_PanelHighlightActiveColor" data-uid="TiltBrush.PanelManager.PanelHighlightActiveColor">PanelHighlightActiveColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color PanelHighlightActiveColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PanelHighlightInactiveColor_" data-uid="TiltBrush.PanelManager.PanelHighlightInactiveColor*"></a>
+  <h4 id="TiltBrush_PanelManager_PanelHighlightInactiveColor" data-uid="TiltBrush.PanelManager.PanelHighlightInactiveColor">PanelHighlightInactiveColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color PanelHighlightInactiveColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_PanelManager_AdvancedModeActive_" data-uid="TiltBrush.PanelManager.AdvancedModeActive*"></a>
+  <h4 id="TiltBrush_PanelManager_AdvancedModeActive" data-uid="TiltBrush.PanelManager.AdvancedModeActive">AdvancedModeActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AdvancedModeActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_AttachHeldPanelToWand_" data-uid="TiltBrush.PanelManager.AttachHeldPanelToWand*"></a>
+  <h4 id="TiltBrush_PanelManager_AttachHeldPanelToWand_TiltBrush_BasePanel_" data-uid="TiltBrush.PanelManager.AttachHeldPanelToWand(TiltBrush.BasePanel)">AttachHeldPanelToWand(BasePanel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AttachHeldPanelToWand(BasePanel panel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td><span class="parametername">panel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_BrushLabActive_" data-uid="TiltBrush.PanelManager.BrushLabActive*"></a>
+  <h4 id="TiltBrush_PanelManager_BrushLabActive" data-uid="TiltBrush.PanelManager.BrushLabActive">BrushLabActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BrushLabActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_CameraActive_" data-uid="TiltBrush.PanelManager.CameraActive*"></a>
+  <h4 id="TiltBrush_PanelManager_CameraActive" data-uid="TiltBrush.PanelManager.CameraActive">CameraActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CameraActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_ClosePanePanelGaps_" data-uid="TiltBrush.PanelManager.ClosePanePanelGaps*"></a>
+  <h4 id="TiltBrush_PanelManager_ClosePanePanelGaps" data-uid="TiltBrush.PanelManager.ClosePanePanelGaps">ClosePanePanelGaps()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePanePanelGaps()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_DismissNonCorePanel_" data-uid="TiltBrush.PanelManager.DismissNonCorePanel*"></a>
+  <h4 id="TiltBrush_PanelManager_DismissNonCorePanel_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.DismissNonCorePanel(TiltBrush.BasePanel.PanelType)">DismissNonCorePanel(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DismissNonCorePanel(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_DoCollisionSimulationForKeyboardMouse_" data-uid="TiltBrush.PanelManager.DoCollisionSimulationForKeyboardMouse*"></a>
+  <h4 id="TiltBrush_PanelManager_DoCollisionSimulationForKeyboardMouse_TiltBrush_BasePanel_" data-uid="TiltBrush.PanelManager.DoCollisionSimulationForKeyboardMouse(TiltBrush.BasePanel)">DoCollisionSimulationForKeyboardMouse(BasePanel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoCollisionSimulationForKeyboardMouse(BasePanel movingPanel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td><span class="parametername">movingPanel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_DoCollisionSimulationForWidgetPanels_" data-uid="TiltBrush.PanelManager.DoCollisionSimulationForWidgetPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_DoCollisionSimulationForWidgetPanels" data-uid="TiltBrush.PanelManager.DoCollisionSimulationForWidgetPanels">DoCollisionSimulationForWidgetPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoCollisionSimulationForWidgetPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ExecuteOnPanel_" data-uid="TiltBrush.PanelManager.ExecuteOnPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_ExecuteOnPanel__1_System_Action___0__" data-uid="TiltBrush.PanelManager.ExecuteOnPanel``1(System.Action{``0})">ExecuteOnPanel&lt;T&gt;(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteOnPanel&lt;T&gt;(Action&lt;T&gt; action)
+    where T : BasePanel</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GazePanelsAreVisible_" data-uid="TiltBrush.PanelManager.GazePanelsAreVisible*"></a>
+  <h4 id="TiltBrush_PanelManager_GazePanelsAreVisible" data-uid="TiltBrush.PanelManager.GazePanelsAreVisible">GazePanelsAreVisible()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GazePanelsAreVisible()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetActivePanelByType_" data-uid="TiltBrush.PanelManager.GetActivePanelByType*"></a>
+  <h4 id="TiltBrush_PanelManager_GetActivePanelByType_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.GetActivePanelByType(TiltBrush.BasePanel.PanelType)">GetActivePanelByType(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel GetActivePanelByType(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetAdminPanel_" data-uid="TiltBrush.PanelManager.GetAdminPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_GetAdminPanel" data-uid="TiltBrush.PanelManager.GetAdminPanel">GetAdminPanel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel GetAdminPanel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetAllPanels_" data-uid="TiltBrush.PanelManager.GetAllPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_GetAllPanels" data-uid="TiltBrush.PanelManager.GetAllPanels">GetAllPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PanelManager.PanelData&gt; GetAllPanels()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TiltBrush.PanelManager.PanelData.html">PanelManager.PanelData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetFixedPanelPosClosestToPoint_" data-uid="TiltBrush.PanelManager.GetFixedPanelPosClosestToPoint*"></a>
+  <h4 id="TiltBrush_PanelManager_GetFixedPanelPosClosestToPoint_Vector3_" data-uid="TiltBrush.PanelManager.GetFixedPanelPosClosestToPoint(Vector3)">GetFixedPanelPosClosestToPoint(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetFixedPanelPosClosestToPoint(Vector3 vPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetPanel_" data-uid="TiltBrush.PanelManager.GetPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_GetPanel_System_Int32_" data-uid="TiltBrush.PanelManager.GetPanel(System.Int32)">GetPanel(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel GetPanel(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetPanelByType_" data-uid="TiltBrush.PanelManager.GetPanelByType*"></a>
+  <h4 id="TiltBrush_PanelManager_GetPanelByType_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.GetPanelByType(TiltBrush.BasePanel.PanelType)">GetPanelByType(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel GetPanelByType(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetSketchBookPanel_" data-uid="TiltBrush.PanelManager.GetSketchBookPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_GetSketchBookPanel" data-uid="TiltBrush.PanelManager.GetSketchBookPanel">GetSketchBookPanel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel GetSketchBookPanel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetSketchSurfaceResetPos_" data-uid="TiltBrush.PanelManager.GetSketchSurfaceResetPos*"></a>
+  <h4 id="TiltBrush_PanelManager_GetSketchSurfaceResetPos" data-uid="TiltBrush.PanelManager.GetSketchSurfaceResetPos">GetSketchSurfaceResetPos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetSketchSurfaceResetPos()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_GetSnapStepDistance_" data-uid="TiltBrush.PanelManager.GetSnapStepDistance*"></a>
+  <h4 id="TiltBrush_PanelManager_GetSnapStepDistance" data-uid="TiltBrush.PanelManager.GetSnapStepDistance">GetSnapStepDistance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetSnapStepDistance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_HideAllPanels_" data-uid="TiltBrush.PanelManager.HideAllPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_HideAllPanels" data-uid="TiltBrush.PanelManager.HideAllPanels">HideAllPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideAllPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_HidePanelsForStartup_" data-uid="TiltBrush.PanelManager.HidePanelsForStartup*"></a>
+  <h4 id="TiltBrush_PanelManager_HidePanelsForStartup" data-uid="TiltBrush.PanelManager.HidePanelsForStartup">HidePanelsForStartup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HidePanelsForStartup()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_Init_" data-uid="TiltBrush.PanelManager.Init*"></a>
+  <h4 id="TiltBrush_PanelManager_Init" data-uid="TiltBrush.PanelManager.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_InitPanels_" data-uid="TiltBrush.PanelManager.InitPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_InitPanels_System_Boolean_" data-uid="TiltBrush.PanelManager.InitPanels(System.Boolean)">InitPanels(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitPanels(bool bWandPanels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bWandPanels</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_InitPanesForPanelAttach_" data-uid="TiltBrush.PanelManager.InitPanesForPanelAttach*"></a>
+  <h4 id="TiltBrush_PanelManager_InitPanesForPanelAttach_System_Boolean_" data-uid="TiltBrush.PanelManager.InitPanesForPanelAttach(System.Boolean)">InitPanesForPanelAttach(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitPanesForPanelAttach(bool bPanelStartedFixed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bPanelStartedFixed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_IsAdminPanel_" data-uid="TiltBrush.PanelManager.IsAdminPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_IsAdminPanel_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.IsAdminPanel(TiltBrush.BasePanel.PanelType)">IsAdminPanel(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAdminPanel(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_IsAffectedByCollision_" data-uid="TiltBrush.PanelManager.IsAffectedByCollision*"></a>
+  <h4 id="TiltBrush_PanelManager_IsAffectedByCollision_TiltBrush_PanelManager_PanelData_" data-uid="TiltBrush.PanelManager.IsAffectedByCollision(TiltBrush.PanelManager.PanelData)">IsAffectedByCollision(PanelManager.PanelData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAffectedByCollision(PanelManager.PanelData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.PanelManager.PanelData.html">PanelManager.PanelData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_IsPanelCore_" data-uid="TiltBrush.PanelManager.IsPanelCore*"></a>
+  <h4 id="TiltBrush_PanelManager_IsPanelCore_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.IsPanelCore(TiltBrush.BasePanel.PanelType)">IsPanelCore(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPanelCore(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_IsPanelOpen_" data-uid="TiltBrush.PanelManager.IsPanelOpen*"></a>
+  <h4 id="TiltBrush_PanelManager_IsPanelOpen_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.IsPanelOpen(TiltBrush.BasePanel.PanelType)">IsPanelOpen(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPanelOpen(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_IsPanelUnique_" data-uid="TiltBrush.PanelManager.IsPanelUnique*"></a>
+  <h4 id="TiltBrush_PanelManager_IsPanelUnique_TiltBrush_BasePanel_PanelType_" data-uid="TiltBrush.PanelManager.IsPanelUnique(TiltBrush.BasePanel.PanelType)">IsPanelUnique(BasePanel.PanelType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPanelUnique(BasePanel.PanelType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_LastOpenedPanel_" data-uid="TiltBrush.PanelManager.LastOpenedPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_LastOpenedPanel" data-uid="TiltBrush.PanelManager.LastOpenedPanel">LastOpenedPanel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel LastOpenedPanel()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_LockPanelsToController_" data-uid="TiltBrush.PanelManager.LockPanelsToController*"></a>
+  <h4 id="TiltBrush_PanelManager_LockPanelsToController" data-uid="TiltBrush.PanelManager.LockPanelsToController">LockPanelsToController()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LockPanelsToController()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_LockUxExplorationToController_" data-uid="TiltBrush.PanelManager.LockUxExplorationToController*"></a>
+  <h4 id="TiltBrush_PanelManager_LockUxExplorationToController" data-uid="TiltBrush.PanelManager.LockUxExplorationToController">LockUxExplorationToController()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LockUxExplorationToController()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_MemoryWarningActive_" data-uid="TiltBrush.PanelManager.MemoryWarningActive*"></a>
+  <h4 id="TiltBrush_PanelManager_MemoryWarningActive" data-uid="TiltBrush.PanelManager.MemoryWarningActive">MemoryWarningActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MemoryWarningActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_OpenPanel_" data-uid="TiltBrush.PanelManager.OpenPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_OpenPanel_TiltBrush_BasePanel_PanelType_TiltBrush_TrTransform_" data-uid="TiltBrush.PanelManager.OpenPanel(TiltBrush.BasePanel.PanelType,TiltBrush.TrTransform)">OpenPanel(BasePanel.PanelType, TrTransform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPanel(BasePanel.PanelType type, TrTransform trSpawnXf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.PanelType.html">BasePanel.PanelType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">trSpawnXf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PanelsAreStable_" data-uid="TiltBrush.PanelManager.PanelsAreStable*"></a>
+  <h4 id="TiltBrush_PanelManager_PanelsAreStable" data-uid="TiltBrush.PanelManager.PanelsAreStable">PanelsAreStable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PanelsAreStable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PanelsHaveBeenCustomized_" data-uid="TiltBrush.PanelManager.PanelsHaveBeenCustomized*"></a>
+  <h4 id="TiltBrush_PanelManager_PanelsHaveBeenCustomized" data-uid="TiltBrush.PanelManager.PanelsHaveBeenCustomized">PanelsHaveBeenCustomized()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PanelsHaveBeenCustomized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_PrimeCollisionSimForKeyboardMouse_" data-uid="TiltBrush.PanelManager.PrimeCollisionSimForKeyboardMouse*"></a>
+  <h4 id="TiltBrush_PanelManager_PrimeCollisionSimForKeyboardMouse" data-uid="TiltBrush.PanelManager.PrimeCollisionSimForKeyboardMouse">PrimeCollisionSimForKeyboardMouse()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrimeCollisionSimForKeyboardMouse()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_PrimeCollisionSimForWidgets_" data-uid="TiltBrush.PanelManager.PrimeCollisionSimForWidgets*"></a>
+  <h4 id="TiltBrush_PanelManager_PrimeCollisionSimForWidgets_TiltBrush_GrabWidget_" data-uid="TiltBrush.PanelManager.PrimeCollisionSimForWidgets(TiltBrush.GrabWidget)">PrimeCollisionSimForWidgets(GrabWidget)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrimeCollisionSimForWidgets(GrabWidget immovableWidget)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a></td>
+        <td><span class="parametername">immovableWidget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_RefreshConfiguredFlag_" data-uid="TiltBrush.PanelManager.RefreshConfiguredFlag*"></a>
+  <h4 id="TiltBrush_PanelManager_RefreshConfiguredFlag" data-uid="TiltBrush.PanelManager.RefreshConfiguredFlag">RefreshConfiguredFlag()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshConfiguredFlag()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ResetPanel_" data-uid="TiltBrush.PanelManager.ResetPanel*"></a>
+  <h4 id="TiltBrush_PanelManager_ResetPanel_System_Int32_" data-uid="TiltBrush.PanelManager.ResetPanel(System.Int32)">ResetPanel(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetPanel(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_ResetPaneVisuals_" data-uid="TiltBrush.PanelManager.ResetPaneVisuals*"></a>
+  <h4 id="TiltBrush_PanelManager_ResetPaneVisuals" data-uid="TiltBrush.PanelManager.ResetPaneVisuals">ResetPaneVisuals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetPaneVisuals()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ResetWandPanelRotation_" data-uid="TiltBrush.PanelManager.ResetWandPanelRotation*"></a>
+  <h4 id="TiltBrush_PanelManager_ResetWandPanelRotation" data-uid="TiltBrush.PanelManager.ResetWandPanelRotation">ResetWandPanelRotation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetWandPanelRotation()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ResetWandPanelsConfiguration_" data-uid="TiltBrush.PanelManager.ResetWandPanelsConfiguration*"></a>
+  <h4 id="TiltBrush_PanelManager_ResetWandPanelsConfiguration" data-uid="TiltBrush.PanelManager.ResetWandPanelsConfiguration">ResetWandPanelsConfiguration()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetWandPanelsConfiguration()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_RestoreHiddenPanels_" data-uid="TiltBrush.PanelManager.RestoreHiddenPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_RestoreHiddenPanels" data-uid="TiltBrush.PanelManager.RestoreHiddenPanels">RestoreHiddenPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RestoreHiddenPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ReviveFloatingPanelsForStartup_" data-uid="TiltBrush.PanelManager.ReviveFloatingPanelsForStartup*"></a>
+  <h4 id="TiltBrush_PanelManager_ReviveFloatingPanelsForStartup" data-uid="TiltBrush.PanelManager.ReviveFloatingPanelsForStartup">ReviveFloatingPanelsForStartup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReviveFloatingPanelsForStartup()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_SetCurrentColorOnAllColorPickers_" data-uid="TiltBrush.PanelManager.SetCurrentColorOnAllColorPickers*"></a>
+  <h4 id="TiltBrush_PanelManager_SetCurrentColorOnAllColorPickers_Color_" data-uid="TiltBrush.PanelManager.SetCurrentColorOnAllColorPickers(Color)">SetCurrentColorOnAllColorPickers(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCurrentColorOnAllColorPickers(Color col)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">col</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_SetFixedPanelsToStableOffsets_" data-uid="TiltBrush.PanelManager.SetFixedPanelsToStableOffsets*"></a>
+  <h4 id="TiltBrush_PanelManager_SetFixedPanelsToStableOffsets" data-uid="TiltBrush.PanelManager.SetFixedPanelsToStableOffsets">SetFixedPanelsToStableOffsets()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFixedPanelsToStableOffsets()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_SetInIntroSketchbookMode_" data-uid="TiltBrush.PanelManager.SetInIntroSketchbookMode*"></a>
+  <h4 id="TiltBrush_PanelManager_SetInIntroSketchbookMode_System_Boolean_" data-uid="TiltBrush.PanelManager.SetInIntroSketchbookMode(System.Boolean)">SetInIntroSketchbookMode(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInIntroSketchbookMode(bool inIntro)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIntro</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_SetPanelXfFromWand_" data-uid="TiltBrush.PanelManager.SetPanelXfFromWand*"></a>
+  <h4 id="TiltBrush_PanelManager_SetPanelXfFromWand_TiltBrush_BasePanel_Transform_System_Single_System_Single_System_Single_System_Boolean_" data-uid="TiltBrush.PanelManager.SetPanelXfFromWand(TiltBrush.BasePanel,Transform,System.Single,System.Single,System.Single,System.Boolean)">SetPanelXfFromWand(BasePanel, Transform, Single, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPanelXfFromWand(BasePanel panel, Transform wandTransform, float originAngle, float originOffset, float radius, bool ignoreReveal = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td><span class="parametername">panel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">wandTransform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">originAngle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">originOffset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreReveal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_SetSweetSpotPosition_" data-uid="TiltBrush.PanelManager.SetSweetSpotPosition*"></a>
+  <h4 id="TiltBrush_PanelManager_SetSweetSpotPosition_Vector3_" data-uid="TiltBrush.PanelManager.SetSweetSpotPosition(Vector3)">SetSweetSpotPosition(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSweetSpotPosition(Vector3 vSweetSpot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vSweetSpot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_SettingsActive_" data-uid="TiltBrush.PanelManager.SettingsActive*"></a>
+  <h4 id="TiltBrush_PanelManager_SettingsActive" data-uid="TiltBrush.PanelManager.SettingsActive">SettingsActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SettingsActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_SetVisible_" data-uid="TiltBrush.PanelManager.SetVisible*"></a>
+  <h4 id="TiltBrush_PanelManager_SetVisible_System_Boolean_" data-uid="TiltBrush.PanelManager.SetVisible(System.Boolean)">SetVisible(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVisible(bool bVisible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bVisible</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_ShowIntroSketchbookPanels_" data-uid="TiltBrush.PanelManager.ShowIntroSketchbookPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_ShowIntroSketchbookPanels" data-uid="TiltBrush.PanelManager.ShowIntroSketchbookPanels">ShowIntroSketchbookPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowIntroSketchbookPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_SketchbookActive_" data-uid="TiltBrush.PanelManager.SketchbookActive*"></a>
+  <h4 id="TiltBrush_PanelManager_SketchbookActive" data-uid="TiltBrush.PanelManager.SketchbookActive">SketchbookActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SketchbookActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_SketchbookActiveIncludingTransitions_" data-uid="TiltBrush.PanelManager.SketchbookActiveIncludingTransitions*"></a>
+  <h4 id="TiltBrush_PanelManager_SketchbookActiveIncludingTransitions" data-uid="TiltBrush.PanelManager.SketchbookActiveIncludingTransitions">SketchbookActiveIncludingTransitions()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SketchbookActiveIncludingTransitions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_StandardActive_" data-uid="TiltBrush.PanelManager.StandardActive*"></a>
+  <h4 id="TiltBrush_PanelManager_StandardActive" data-uid="TiltBrush.PanelManager.StandardActive">StandardActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool StandardActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_ToggleAdvancedPanels_" data-uid="TiltBrush.PanelManager.ToggleAdvancedPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_ToggleAdvancedPanels" data-uid="TiltBrush.PanelManager.ToggleAdvancedPanels">ToggleAdvancedPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleAdvancedPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ToggleBrushLabPanels_" data-uid="TiltBrush.PanelManager.ToggleBrushLabPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_ToggleBrushLabPanels" data-uid="TiltBrush.PanelManager.ToggleBrushLabPanels">ToggleBrushLabPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleBrushLabPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ToggleCameraPanels_" data-uid="TiltBrush.PanelManager.ToggleCameraPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_ToggleCameraPanels" data-uid="TiltBrush.PanelManager.ToggleCameraPanels">ToggleCameraPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleCameraPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ToggleMemoryWarningMode_" data-uid="TiltBrush.PanelManager.ToggleMemoryWarningMode*"></a>
+  <h4 id="TiltBrush_PanelManager_ToggleMemoryWarningMode" data-uid="TiltBrush.PanelManager.ToggleMemoryWarningMode">ToggleMemoryWarningMode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleMemoryWarningMode()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ToggleSettingsPanels_" data-uid="TiltBrush.PanelManager.ToggleSettingsPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_ToggleSettingsPanels" data-uid="TiltBrush.PanelManager.ToggleSettingsPanels">ToggleSettingsPanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleSettingsPanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_ToggleSketchbookPanels_" data-uid="TiltBrush.PanelManager.ToggleSketchbookPanels*"></a>
+  <h4 id="TiltBrush_PanelManager_ToggleSketchbookPanels_System_Boolean_" data-uid="TiltBrush.PanelManager.ToggleSketchbookPanels(System.Boolean)">ToggleSketchbookPanels(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleSketchbookPanels(bool isLoadingSketch = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isLoadingSketch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_PanelManager_UpdatePanels_" data-uid="TiltBrush.PanelManager.UpdatePanels*"></a>
+  <h4 id="TiltBrush_PanelManager_UpdatePanels" data-uid="TiltBrush.PanelManager.UpdatePanels">UpdatePanels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePanels()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_UpdateWandOrientationControls_" data-uid="TiltBrush.PanelManager.UpdateWandOrientationControls*"></a>
+  <h4 id="TiltBrush_PanelManager_UpdateWandOrientationControls" data-uid="TiltBrush.PanelManager.UpdateWandOrientationControls">UpdateWandOrientationControls()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateWandOrientationControls()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_PanelManager_UpdateWandTransitionXf_" data-uid="TiltBrush.PanelManager.UpdateWandTransitionXf*"></a>
+  <h4 id="TiltBrush_PanelManager_UpdateWandTransitionXf_TiltBrush_BasePanel_TiltBrush_TrTransform_System_Single_" data-uid="TiltBrush.PanelManager.UpdateWandTransitionXf(TiltBrush.BasePanel,TiltBrush.TrTransform,System.Single)">UpdateWandTransitionXf(BasePanel, TrTransform, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateWandTransitionXf(BasePanel panel, TrTransform target, float percent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td><span class="parametername">panel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">percent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

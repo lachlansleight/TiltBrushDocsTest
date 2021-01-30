@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SnowflakeBrush
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SnowflakeBrush
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.SnowflakeBrush">
+  
+  
+  <h1 id="TiltBrush_SnowflakeBrush" data-uid="TiltBrush.SnowflakeBrush" class="text-break">Class SnowflakeBrush
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.BaseBrushScript.html">BaseBrushScript</a></div>
+    <div class="level2"><a class="xref" href="TiltBrush.ParentBrush.html">ParentBrush</a></div>
+    <div class="level3"><span class="xref">SnowflakeBrush</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_m_knots">ParentBrush.m_knots</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_m_children">ParentBrush.m_children</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_m_recursionLevel">ParentBrush.m_recursionLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_InitializeAndAddChild_TiltBrush_ParentBrush_PbChild_TiltBrush_BrushDescriptor_Color_System_Single_">ParentBrush.InitializeAndAddChild(ParentBrush.PbChild, BrushDescriptor, Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_DistanceSinceLastKnotBasedChild">ParentBrush.DistanceSinceLastKnotBasedChild()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_UpdatePositionImpl_Vector3_Quaternion_System_Single_">ParentBrush.UpdatePositionImpl(Vector3, Quaternion, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_InitBrush_TiltBrush_BrushDescriptor_TiltBrush_TrTransform_">ParentBrush.InitBrush(BrushDescriptor, TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_ResetBrushForPreview_TiltBrush_TrTransform_">ParentBrush.ResetBrushForPreview(TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_AlwaysRebuildPreviewBrush">ParentBrush.AlwaysRebuildPreviewBrush()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_GetVertexLayout_TiltBrush_BrushDescriptor_">ParentBrush.GetVertexLayout(BrushDescriptor)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_ApplyChangesToVisuals">ParentBrush.ApplyChangesToVisuals()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_GetNumUsedVerts">ParentBrush.GetNumUsedVerts()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_GetSpawnInterval_System_Single_">ParentBrush.GetSpawnInterval(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_InitUndoClone_GameObject_">ParentBrush.InitUndoClone(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_FinalizeSolitaryBrush">ParentBrush.FinalizeSolitaryBrush()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_FinalizeBatchedBrush">ParentBrush.FinalizeBatchedBrush()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_kPreviewDuration">BaseBrushScript.kPreviewDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Create_Transform_TiltBrush_TrTransform_TiltBrush_BrushDescriptor_Color_System_Single_">BaseBrushScript.Create(Transform, TrTransform, BrushDescriptor, Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_GetStrokeCost_TiltBrush_BrushDescriptor_System_Int32_System_Single_">BaseBrushScript.GetStrokeCost(BrushDescriptor, Int32, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_bCanBatch">BaseBrushScript.m_bCanBatch</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_Desc">BaseBrushScript.m_Desc</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_EnableBackfaces">BaseBrushScript.m_EnableBackfaces</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_PreviewMode">BaseBrushScript.m_PreviewMode</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_IsLoading">BaseBrushScript.m_IsLoading</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_Color">BaseBrushScript.m_Color</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_LastSpawnXf">BaseBrushScript.m_LastSpawnXf</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_LastSpawnPos">BaseBrushScript.m_LastSpawnPos</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_BaseSize_PS">BaseBrushScript.m_BaseSize_PS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_rng">BaseBrushScript.m_rng</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_StrokeScale">BaseBrushScript.StrokeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_LOCAL_TO_POINTER">BaseBrushScript.LOCAL_TO_POINTER</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_POINTER_TO_LOCAL">BaseBrushScript.POINTER_TO_LOCAL</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_BaseSize_PS">BaseBrushScript.BaseSize_PS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_BaseSize_LS">BaseBrushScript.BaseSize_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Canvas">BaseBrushScript.Canvas</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Descriptor">BaseBrushScript.Descriptor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_CurrentColor">BaseBrushScript.CurrentColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_RandomSeed">BaseBrushScript.RandomSeed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Stroke">BaseBrushScript.Stroke</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_SetIsLoading">BaseBrushScript.SetIsLoading()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_SetPreviewMode">BaseBrushScript.SetPreviewMode()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_CloneAsUndoObject">BaseBrushScript.CloneAsUndoObject()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_UpdatePosition_LS_TiltBrush_TrTransform_System_Single_">BaseBrushScript.UpdatePosition_LS(TrTransform, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_SetPreviewProperties_Color_System_Single_">BaseBrushScript.SetPreviewProperties(Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_DestroyMesh">BaseBrushScript.DestroyMesh()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_HideBrush_System_Boolean_">BaseBrushScript.HideBrush(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_DecayBrush">BaseBrushScript.DecayBrush()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_NeedsStraightEdgeProxy">BaseBrushScript.NeedsStraightEdgeProxy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_IsOutOfVerts">BaseBrushScript.IsOutOfVerts()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ShouldCurrentLineEnd">BaseBrushScript.ShouldCurrentLineEnd()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ShouldDiscard">BaseBrushScript.ShouldDiscard()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_DebugGetGeometry_Vector3____System_Int32__Vector2____System_Int32____System_Int32__">BaseBrushScript.DebugGetGeometry(Vector3[], Int32, Vector2[], Int32[], Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_PressuredSize_System_Single_">BaseBrushScript.PressuredSize(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_PressuredRandomSize_System_Single_System_Int32_">BaseBrushScript.PressuredRandomSize(Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_PressuredOpacity_System_Single_">BaseBrushScript.PressuredOpacity(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeSurfaceFrameNew_Vector3_Vector3_Quaternion_Vector3__Vector3__">BaseBrushScript.ComputeSurfaceFrameNew(Vector3, Vector3, Quaternion, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_HashFloat01_System_Single_">BaseBrushScript.HashFloat01(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_MirrorQuadFace__1___0___System_Int32_">BaseBrushScript.MirrorQuadFace&lt;T&gt;(T[], Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_MirrorQuadFace__1_List___0__System_Int32_">BaseBrushScript.MirrorQuadFace&lt;T&gt;(List&lt;T&gt;, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_MirrorTangents_Vector4___System_Int32_">BaseBrushScript.MirrorTangents(Vector4[], Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_CreateDuplicateQuad_Vector3___Vector3___System_Int32_Vector3_">BaseBrushScript.CreateDuplicateQuad(Vector3[], Vector3[], Int32, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeTangentSpaceForQuads_Vector3___Vector2___Vector3___Vector4___System_Int32_System_Int32_System_Int32_">BaseBrushScript.ComputeTangentSpaceForQuads(Vector3[], Vector2[], Vector3[], Vector4[], Int32, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeST_Vector3___Vector2___System_Int32_Vector3__Vector3__">BaseBrushScript.ComputeST(Vector3[], Vector2[], Int32, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeST_IList_Vector3__IList_Vector2__System_Int32_System_Int32_System_Int32_System_Int32_Vector3__Vector3__">BaseBrushScript.ComputeST(IList&lt;Vector3&gt;, IList&lt;Vector2&gt;, Int32, Int32, Int32, Int32, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeS_Vector3___Vector2___System_Int32_Vector3__">BaseBrushScript.ComputeS(Vector3[], Vector2[], Int32, Vector3)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_SnowflakeBrush_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SnowflakeBrush : ParentBrush</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_SnowflakeBrush_m_baseBrush" data-uid="TiltBrush.SnowflakeBrush.m_baseBrush">m_baseBrush</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BrushDescriptor m_baseBrush</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BrushDescriptor.html">BrushDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_SnowflakeBrush_m_hueDeltaPct" data-uid="TiltBrush.SnowflakeBrush.m_hueDeltaPct">m_hueDeltaPct</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_hueDeltaPct</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_SnowflakeBrush_m_numRotations" data-uid="TiltBrush.SnowflakeBrush.m_numRotations">m_numRotations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int m_numRotations</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_SnowflakeBrush_m_saturationDelta" data-uid="TiltBrush.SnowflakeBrush.m_saturationDelta">m_saturationDelta</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_saturationDelta</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_SnowflakeBrush_MaybeCreateChildrenImpl_" data-uid="TiltBrush.SnowflakeBrush.MaybeCreateChildrenImpl*"></a>
+  <h4 id="TiltBrush_SnowflakeBrush_MaybeCreateChildrenImpl" data-uid="TiltBrush.SnowflakeBrush.MaybeCreateChildrenImpl">MaybeCreateChildrenImpl()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void MaybeCreateChildrenImpl()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.ParentBrush.html#TiltBrush_ParentBrush_MaybeCreateChildrenImpl">ParentBrush.MaybeCreateChildrenImpl()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

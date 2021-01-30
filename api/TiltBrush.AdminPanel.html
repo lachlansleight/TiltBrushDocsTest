@@ -1,0 +1,746 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AdminPanel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AdminPanel
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.AdminPanel">
+  
+  
+  <h1 id="TiltBrush_AdminPanel" data-uid="TiltBrush.AdminPanel" class="text-break">Class AdminPanel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></div>
+    <div class="level2"><span class="xref">AdminPanel</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelType">BasePanel.m_PanelType</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_Collider">BasePanel.m_Collider</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_Mesh">BasePanel.m_Mesh</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_Border">BasePanel.m_Border</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_MeshCollider">BasePanel.m_MeshCollider</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_ParticleBounds">BasePanel.m_ParticleBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelPopUpMap">BasePanel.m_PanelPopUpMap</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescription">BasePanel.m_PanelDescription</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionPrefab">BasePanel.m_PanelDescriptionPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionOffset">BasePanel.m_PanelDescriptionOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionColor">BasePanel.m_PanelDescriptionColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelFlairPrefab">BasePanel.m_PanelFlairPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelFlairOffset">BasePanel.m_PanelFlairOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DescriptionSpringK">BasePanel.m_DescriptionSpringK</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DescriptionSpringDampen">BasePanel.m_DescriptionSpringDampen</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DescriptionClosedAngle">BasePanel.m_DescriptionClosedAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DescriptionOpenAngle">BasePanel.m_DescriptionOpenAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DescriptionAlphaDistance">BasePanel.m_DescriptionAlphaDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_Decor">BasePanel.m_Decor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeHighlightScaleMultiplier">BasePanel.m_GazeHighlightScaleMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelSensitivity">BasePanel.m_PanelSensitivity</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_ClampToBounds">BasePanel.m_ClampToBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_ReticleBounds">BasePanel.m_ReticleBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_BorderSphereHighlightRadius">BasePanel.m_BorderSphereHighlightRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PositioningSpheresBounds">BasePanel.m_PositioningSpheresBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PositioningSphereRadius">BasePanel.m_PositioningSphereRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_UseGazeRotation">BasePanel.m_UseGazeRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_MaxGazeRotation">BasePanel.m_MaxGazeRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeActivateSpeed">BasePanel.m_GazeActivateSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_InitialSpawnPos">BasePanel.m_InitialSpawnPos</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_InitialSpawnRotEulers">BasePanel.m_InitialSpawnRotEulers</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandAttachAngle">BasePanel.m_WandAttachAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandAttachYOffset">BasePanel.m_WandAttachYOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandAttachHalfHeight">BasePanel.m_WandAttachHalfHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PromoBorders">BasePanel.m_PromoBorders</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_SwipeThreshold">BasePanel.m_SwipeThreshold</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_BorderMaterial">BasePanel.m_BorderMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_SweetSpotDistance">BasePanel.m_SweetSpotDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_Fixed">BasePanel.m_Fixed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandPrimedForAttach">BasePanel.m_WandPrimedForAttach</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandAttachRadiusAdjust">BasePanel.m_WandAttachRadiusAdjust</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandAttachYOffset_Target">BasePanel.m_WandAttachYOffset_Target</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WandAttachYOffset_Stable">BasePanel.m_WandAttachYOffset_Stable</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_ActivePopUp">BasePanel.m_ActivePopUp</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DelayedCommand">BasePanel.m_DelayedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DelayedCommandParam">BasePanel.m_DelayedCommandParam</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DelayedCommandParam2">BasePanel.m_DelayedCommandParam2</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionObject">BasePanel.m_PanelDescriptionObject</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionRenderer">BasePanel.m_PanelDescriptionRenderer</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionTextMeshPro">BasePanel.m_PanelDescriptionTextMeshPro</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_BaseScale">BasePanel.m_BaseScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_AdjustedScale">BasePanel.m_AdjustedScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionTextSpring">BasePanel.m_PanelDescriptionTextSpring</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelFlairSpring">BasePanel.m_PanelFlairSpring</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelFlair">BasePanel.m_PanelFlair</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_ReticleOffset">BasePanel.m_ReticleOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_Bounds">BasePanel.m_Bounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_WorkingReticleBounds">BasePanel.m_WorkingReticleBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelDescriptionState">BasePanel.m_PanelDescriptionState</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PanelFlairState">BasePanel.m_PanelFlairState</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_CloseAngleThreshold">BasePanel.m_CloseAngleThreshold</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_CurrentState">BasePanel.m_CurrentState</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_DesiredState">BasePanel.m_DesiredState</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeActive">BasePanel.m_GazeActive</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeWasActive">BasePanel.m_GazeWasActive</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeDescriptionsActive">BasePanel.m_GazeDescriptionsActive</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_InputValid">BasePanel.m_InputValid</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_EatInput">BasePanel.m_EatInput</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_ReticleSelectionRay">BasePanel.m_ReticleSelectionRay</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_PositioningPercent">BasePanel.m_PositioningPercent</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_MaxGazeOffsetDistance">BasePanel.m_MaxGazeOffsetDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeRotationAxis">BasePanel.m_GazeRotationAxis</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeRotationAngle">BasePanel.m_GazeRotationAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeRotationAmount">BasePanel.m_GazeRotationAmount</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_GazeActivePercent">BasePanel.m_GazeActivePercent</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_UIComponentManager">BasePanel.m_UIComponentManager</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_NonScaleChild">BasePanel.m_NonScaleChild</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_m_SwipeRecentMotion">BasePanel.m_SwipeRecentMotion</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetBounds">BasePanel.GetBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetPositioningExtent">BasePanel.GetPositioningExtent()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_IsAvailable">BasePanel.IsAvailable()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_IsActive">BasePanel.IsActive()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_BeginFixed">BasePanel.BeginFixed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ClearBeginFixed">BasePanel.ClearBeginFixed()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CanBeDetached">BasePanel.CanBeDetached</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_IsInInitialPosition">BasePanel.IsInInitialPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_WidgetSibling">BasePanel.WidgetSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_AdvancedModePanel">BasePanel.AdvancedModePanel</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CurrentlyVisibleInAdvancedMode">BasePanel.CurrentlyVisibleInAdvancedMode</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ParticleBounds">BasePanel.ParticleBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_PanelPopUp">BasePanel.PanelPopUp</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetGazeColorFromActiveGazePercent">BasePanel.GetGazeColorFromActiveGazePercent()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_Type">BasePanel.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ShouldRegister">BasePanel.ShouldRegister</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_InitAdvancedFlag_System_Boolean_">BasePanel.InitAdvancedFlag(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_PopUpOffset">BasePanel.PopUpOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CalculateBounds">BasePanel.CalculateBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ActivatePromoBorder_System_Boolean_">BasePanel.ActivatePromoBorder(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_SetInIntroMode_System_Boolean_">BasePanel.SetInIntroMode(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_SetPositioningPercent_System_Single_">BasePanel.SetPositioningPercent(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_SetScale_System_Single_">BasePanel.SetScale(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_PanelIsUsed">BasePanel.PanelIsUsed()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetCollider">BasePanel.GetCollider()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_HasMeshCollider">BasePanel.HasMeshCollider()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_RaycastAgainstMeshCollider_Ray_RaycastHit__System_Single_">BasePanel.RaycastAgainstMeshCollider(Ray, RaycastHit, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_AssignControllerMaterials_TiltBrush_InputManager_ControllerName_">BasePanel.AssignControllerMaterials(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetControllerPadShaderRatio_TiltBrush_InputManager_ControllerName_">BasePanel.GetControllerPadShaderRatio(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_BrushPadAnimatesOnHover">BasePanel.BrushPadAnimatesOnHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UndoRedoBlocked">BasePanel.UndoRedoBlocked()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnPanelMoved">BasePanel.OnPanelMoved()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_Awake">BasePanel.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CloseActivePopUp_System_Boolean_">BasePanel.CloseActivePopUp(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_VerifyStateForFloating">BasePanel.VerifyStateForFloating()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_SetPanelStableToTarget">BasePanel.SetPanelStableToTarget()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ResetPanelToInitialPosition">BasePanel.ResetPanelToInitialPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ResetPanel">BasePanel.ResetPanel()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_InvalidateIfActivePopup_TiltBrush_PopUpWindow_">BasePanel.InvalidateIfActivePopup(PopUpWindow)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnEnablePanel">BasePanel.OnEnablePanel()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnDisablePanel">BasePanel.OnDisablePanel()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ResetReticleOffset">BasePanel.ResetReticleOffset()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdateReticleOffset_System_Single_System_Single_">BasePanel.UpdateReticleOffset(Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetReticleTransformFromPosDir_Vector3_Vector3_Vector3__Vector3__">BasePanel.GetReticleTransformFromPosDir(Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetReticleTransform_Vector3__Vector3__System_Boolean_">BasePanel.GetReticleTransform(Vector3, Vector3, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_BaseUpdate">BasePanel.BaseUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdateState">BasePanel.UpdateState()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnUpdateActive">BasePanel.OnUpdateActive()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdateDescriptions">BasePanel.UpdateDescriptions()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GetGazeColor">BasePanel.GetGazeColor()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdateFixedTransition">BasePanel.UpdateFixedTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_WidgetSiblingBeginInteraction">BasePanel.WidgetSiblingBeginInteraction()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_WidgetSiblingEndInteraction">BasePanel.WidgetSiblingEndInteraction()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_TransitionToWand_System_Boolean_TiltBrush_TrTransform_">BasePanel.TransitionToWand(Boolean, TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnUpdateGazeBehavior_Color_">BasePanel.OnUpdateGazeBehavior(Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_PanelGazeActive_System_Boolean_">BasePanel.PanelGazeActive(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ResetPanelFlair">BasePanel.ResetPanelFlair()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnWidgetShowAnimStart">BasePanel.OnWidgetShowAnimStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnWidgetShowAnimComplete">BasePanel.OnWidgetShowAnimComplete()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnWidgetHide">BasePanel.OnWidgetHide()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_AccumulateSwipe">BasePanel.AccumulateSwipe()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_IncrementMotionAndCheckForSwipe_System_Single_">BasePanel.IncrementMotionAndCheckForSwipe(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdatePanel_Vector3_Vector3_">BasePanel.UpdatePanel(Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_InitForPanelMovement">BasePanel.InitForPanelMovement()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_PanelHasStoppedMoving">BasePanel.PanelHasStoppedMoving()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CreatePopUp_TiltBrush_SketchControlsScript_GlobalCommands_System_Int32_System_Int32_System_String_Action_">BasePanel.CreatePopUp(SketchControlsScript.GlobalCommands, Int32, Int32, String, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CreatePopUp_TiltBrush_SketchControlsScript_GlobalCommands_System_Int32_System_Int32_Vector3_System_String_Action_">BasePanel.CreatePopUp(SketchControlsScript.GlobalCommands, Int32, Int32, Vector3, String, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_PositionPopUp_Vector3_">BasePanel.PositionPopUp(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ResolveDelayedButtonCommand_System_Boolean_System_Boolean_">BasePanel.ResolveDelayedButtonCommand(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_GotoPage_System_Int32_">BasePanel.GotoPage(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_AdvancePage_System_Int32_">BasePanel.AdvancePage(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_InitForCollisionDetection">BasePanel.InitForCollisionDetection()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CalculateDepenetration_TiltBrush_BasePanel_">BasePanel.CalculateDepenetration(BasePanel)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_CalculateDepenetration_Vector3_System_Single_">BasePanel.CalculateDepenetration(Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdatePositioningForces">BasePanel.UpdatePositioningForces()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdateDelayedCommandParameter_System_Int32_">BasePanel.UpdateDelayedCommandParameter(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_DoesRayHitCollider_Ray_Collider_System_Boolean_">BasePanel.DoesRayHitCollider(Ray, Collider, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_DoesRayHitCollider_Ray_Collider_RaycastHit__">BasePanel.DoesRayHitCollider(Ray, Collider, RaycastHit)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_AdminPanel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AdminPanel : BasePanel</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_AdminPanel_AdvancedButton_" data-uid="TiltBrush.AdminPanel.AdvancedButton*"></a>
+  <h4 id="TiltBrush_AdminPanel_AdvancedButton" data-uid="TiltBrush.AdminPanel.AdvancedButton">AdvancedButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform AdvancedButton { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_AdminPanel_AdvancedModeHintObject_" data-uid="TiltBrush.AdminPanel.AdvancedModeHintObject*"></a>
+  <h4 id="TiltBrush_AdminPanel_AdvancedModeHintObject" data-uid="TiltBrush.AdminPanel.AdvancedModeHintObject">AdvancedModeHintObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HintObjectScript AdvancedModeHintObject { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.HintObjectScript.html">HintObjectScript</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_AdminPanel_ShareButton_" data-uid="TiltBrush.AdminPanel.ShareButton*"></a>
+  <h4 id="TiltBrush_AdminPanel_ShareButton" data-uid="TiltBrush.AdminPanel.ShareButton">ShareButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform ShareButton { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_AdminPanel_ForceUpdatePanelVisuals_" data-uid="TiltBrush.AdminPanel.ForceUpdatePanelVisuals*"></a>
+  <h4 id="TiltBrush_AdminPanel_ForceUpdatePanelVisuals" data-uid="TiltBrush.AdminPanel.ForceUpdatePanelVisuals">ForceUpdatePanelVisuals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ForceUpdatePanelVisuals()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_ForceUpdatePanelVisuals">BasePanel.ForceUpdatePanelVisuals()</a></div>
+  
+  
+  <a id="TiltBrush_AdminPanel_InitPanel_" data-uid="TiltBrush.AdminPanel.InitPanel*"></a>
+  <h4 id="TiltBrush_AdminPanel_InitPanel" data-uid="TiltBrush.AdminPanel.InitPanel">InitPanel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void InitPanel()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_InitPanel">BasePanel.InitPanel()</a></div>
+  
+  
+  <a id="TiltBrush_AdminPanel_OnUpdatePanel_" data-uid="TiltBrush.AdminPanel.OnUpdatePanel*"></a>
+  <h4 id="TiltBrush_AdminPanel_OnUpdatePanel_Vector3_Vector3_" data-uid="TiltBrush.AdminPanel.OnUpdatePanel(Vector3,Vector3)">OnUpdatePanel(Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnUpdatePanel(Vector3 vToPanel, Vector3 vHitPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vToPanel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vHitPoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_OnUpdatePanel_Vector3_Vector3_">BasePanel.OnUpdatePanel(Vector3, Vector3)</a></div>
+  
+  
+  <a id="TiltBrush_AdminPanel_UpdateGazeBehavior_" data-uid="TiltBrush.AdminPanel.UpdateGazeBehavior*"></a>
+  <h4 id="TiltBrush_AdminPanel_UpdateGazeBehavior" data-uid="TiltBrush.AdminPanel.UpdateGazeBehavior">UpdateGazeBehavior()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void UpdateGazeBehavior()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BasePanel.html#TiltBrush_BasePanel_UpdateGazeBehavior">BasePanel.UpdateGazeBehavior()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

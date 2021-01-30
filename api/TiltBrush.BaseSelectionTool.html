@@ -1,0 +1,798 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseSelectionTool
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseSelectionTool
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.BaseSelectionTool">
+  
+  
+  <h1 id="TiltBrush_BaseSelectionTool" data-uid="TiltBrush.BaseSelectionTool" class="text-break">Class BaseSelectionTool
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.BaseTool.html">BaseTool</a></div>
+    <div class="level2"><span class="xref">BaseSelectionTool</span></div>
+      <div class="level3"><a class="xref" href="TiltBrush.BrushNColorTool.html">BrushNColorTool</a></div>
+      <div class="level3"><a class="xref" href="TiltBrush.BrushSelectionTool.html">BrushSelectionTool</a></div>
+      <div class="level3"><a class="xref" href="TiltBrush.ColorSelectionTool.html">ColorSelectionTool</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_Type">BaseTool.m_Type</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ShowTransformGizmo">BaseTool.m_ShowTransformGizmo</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ExitOnAbortCommand">BaseTool.m_ExitOnAbortCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ScalingSupported">BaseTool.m_ScalingSupported</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ButtonHoldDuration">BaseTool.ButtonHoldDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_Parent">BaseTool.m_Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_SketchSurface">BaseTool.m_SketchSurface</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ParentBaseScale">BaseTool.m_ParentBaseScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_RequestExit">BaseTool.m_RequestExit</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_EatInput">BaseTool.m_EatInput</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_AllowDrawing">BaseTool.m_AllowDrawing</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ToolHidden">BaseTool.m_ToolHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_IsEatingInput">BaseTool.IsEatingInput</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ExitRequested">BaseTool.ExitRequested()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ToolHidden">BaseTool.ToolHidden()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_EatInput">BaseTool.EatInput()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowDrawing_System_Boolean_">BaseTool.AllowDrawing(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ShouldShowPointer">BaseTool.ShouldShowPointer()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_Awake">BaseTool.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_OnDestroy">BaseTool.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_OnSwap">BaseTool.OnSwap()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_HideTool_System_Boolean_">BaseTool.HideTool(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ShouldShowTouch">BaseTool.ShouldShowTouch()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_CanShowPromosWhileInUse">BaseTool.CanShowPromosWhileInUse()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_LateUpdateTool">BaseTool.LateUpdateTool()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AssignControllerMaterials_TiltBrush_InputManager_ControllerName_">BaseTool.AssignControllerMaterials(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ScalingSupported">BaseTool.ScalingSupported()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_Monitor">BaseTool.Monitor()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_GetSizeRatio_TiltBrush_InputManager_ControllerName_TiltBrush_VrInput_">BaseTool.GetSizeRatio(InputManager.ControllerName, VrInput)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SetExtraText_System_String_">BaseTool.SetExtraText(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_BacksideActive_System_Boolean_">BaseTool.BacksideActive(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_LockPointerToSketchSurface">BaseTool.LockPointerToSketchSurface()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowsWidgetManipulation">BaseTool.AllowsWidgetManipulation()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_CanAdjustSize">BaseTool.CanAdjustSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_InputBlocked">BaseTool.InputBlocked()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowWorldTransformation">BaseTool.AllowWorldTransformation()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AvailableDuringLoading">BaseTool.AvailableDuringLoading()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_HidePanels">BaseTool.HidePanels()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_BlockPinCushion">BaseTool.BlockPinCushion()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowDefaultToolToggle">BaseTool.AllowDefaultToolToggle()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_EnableRenderer_System_Boolean_">BaseTool.EnableRenderer(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_PointInTriangle_Vector3__Vector3__Vector3__Vector3__">BaseTool.PointInTriangle(Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SameSide_Vector3__Vector3__Vector3__Vector3__">BaseTool.SameSide(Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SegmentSphereIntersection_Vector3_Vector3_Vector3_System_Single_">BaseTool.SegmentSphereIntersection(Vector3, Vector3, Vector3, Single)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_BaseSelectionTool_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BaseSelectionTool : BaseTool</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_Border" data-uid="TiltBrush.BaseSelectionTool.m_Border">m_Border</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Renderer m_Border</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_ConfirmationTextColor" data-uid="TiltBrush.BaseSelectionTool.m_ConfirmationTextColor">m_ConfirmationTextColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color m_ConfirmationTextColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_ConfirmationTextRenderer" data-uid="TiltBrush.BaseSelectionTool.m_ConfirmationTextRenderer">m_ConfirmationTextRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Renderer m_ConfirmationTextRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_CurrentSelection" data-uid="TiltBrush.BaseSelectionTool.m_CurrentSelection">m_CurrentSelection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;BaseSelectionTool.SelectionObject&gt; m_CurrentSelection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TiltBrush.BaseSelectionTool.SelectionObject.html">BaseSelectionTool.SelectionObject</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_DescriptionText" data-uid="TiltBrush.BaseSelectionTool.m_DescriptionText">m_DescriptionText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string m_DescriptionText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionBrush" data-uid="TiltBrush.BaseSelectionTool.m_SelectionBrush">m_SelectionBrush</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BrushDescriptor m_SelectionBrush</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BrushDescriptor.html">BrushDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionColor" data-uid="TiltBrush.BaseSelectionTool.m_SelectionColor">m_SelectionColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color m_SelectionColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionInfoQueryComplete" data-uid="TiltBrush.BaseSelectionTool.m_SelectionInfoQueryComplete">m_SelectionInfoQueryComplete</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_SelectionInfoQueryComplete</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionInfoQueryWasComplete" data-uid="TiltBrush.BaseSelectionTool.m_SelectionInfoQueryWasComplete">m_SelectionInfoQueryWasComplete</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_SelectionInfoQueryWasComplete</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionInfoValid" data-uid="TiltBrush.BaseSelectionTool.m_SelectionInfoValid">m_SelectionInfoValid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_SelectionInfoValid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionProgressBar" data-uid="TiltBrush.BaseSelectionTool.m_SelectionProgressBar">m_SelectionProgressBar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform m_SelectionProgressBar</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionRange" data-uid="TiltBrush.BaseSelectionTool.m_SelectionRange">m_SelectionRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 m_SelectionRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionRing" data-uid="TiltBrush.BaseSelectionTool.m_SelectionRing">m_SelectionRing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform m_SelectionRing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_BaseSelectionTool_m_SelectionText" data-uid="TiltBrush.BaseSelectionTool.m_SelectionText">m_SelectionText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMesh m_SelectionText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMesh</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_EnableTool_" data-uid="TiltBrush.BaseSelectionTool.EnableTool*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_EnableTool_System_Boolean_" data-uid="TiltBrush.BaseSelectionTool.EnableTool(System.Boolean)">EnableTool(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void EnableTool(bool bEnable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bEnable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_EnableTool_System_Boolean_">BaseTool.EnableTool(Boolean)</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_GetSize_" data-uid="TiltBrush.BaseSelectionTool.GetSize*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_GetSize" data-uid="TiltBrush.BaseSelectionTool.GetSize">GetSize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetSize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_GetSize">BaseTool.GetSize()</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_GetSize01_" data-uid="TiltBrush.BaseSelectionTool.GetSize01*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_GetSize01" data-uid="TiltBrush.BaseSelectionTool.GetSize01">GetSize01()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetSize01()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_GetSize01">BaseTool.GetSize01()</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_Init_" data-uid="TiltBrush.BaseSelectionTool.Init*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_Init" data-uid="TiltBrush.BaseSelectionTool.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_Init">BaseTool.Init()</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_SetColor_" data-uid="TiltBrush.BaseSelectionTool.SetColor*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_SetColor_Color_" data-uid="TiltBrush.BaseSelectionTool.SetColor(Color)">SetColor(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetColor(Color rColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">rColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SetColor_Color_">BaseTool.SetColor(Color)</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_SetToolProgress_" data-uid="TiltBrush.BaseSelectionTool.SetToolProgress*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_SetToolProgress_System_Single_" data-uid="TiltBrush.BaseSelectionTool.SetToolProgress(System.Single)">SetToolProgress(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetToolProgress(float fProgress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fProgress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SetToolProgress_System_Single_">BaseTool.SetToolProgress(Single)</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_UpdateSize_" data-uid="TiltBrush.BaseSelectionTool.UpdateSize*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_UpdateSize_System_Single_" data-uid="TiltBrush.BaseSelectionTool.UpdateSize(System.Single)">UpdateSize(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateSize(float fAdjustAmount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fAdjustAmount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_UpdateSize_System_Single_">BaseTool.UpdateSize(Single)</a></div>
+  
+  
+  <a id="TiltBrush_BaseSelectionTool_UpdateTool_" data-uid="TiltBrush.BaseSelectionTool.UpdateTool*"></a>
+  <h4 id="TiltBrush_BaseSelectionTool_UpdateTool" data-uid="TiltBrush.BaseSelectionTool.UpdateTool">UpdateTool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateTool()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_UpdateTool">BaseTool.UpdateTool()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

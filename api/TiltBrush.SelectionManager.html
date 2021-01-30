@@ -1,0 +1,1213 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SelectionManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SelectionManager
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.SelectionManager">
+  
+  
+  <h1 id="TiltBrush_SelectionManager" data-uid="TiltBrush.SelectionManager" class="text-break">Class SelectionManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SelectionManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_SelectionManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SelectionManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_SelectionManager_m_Instance" data-uid="TiltBrush.SelectionManager.m_Instance">m_Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SelectionManager m_Instance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SelectionManager.html">SelectionManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_SelectionManager_HasSelection_" data-uid="TiltBrush.SelectionManager.HasSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_HasSelection" data-uid="TiltBrush.SelectionManager.HasSelection">HasSelection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSelection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_IsAnimatingTossFromGrabbingGroup_" data-uid="TiltBrush.SelectionManager.IsAnimatingTossFromGrabbingGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_IsAnimatingTossFromGrabbingGroup" data-uid="TiltBrush.SelectionManager.IsAnimatingTossFromGrabbingGroup">IsAnimatingTossFromGrabbingGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAnimatingTossFromGrabbingGroup { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_NumVertsInSelection_" data-uid="TiltBrush.SelectionManager.NumVertsInSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_NumVertsInSelection" data-uid="TiltBrush.SelectionManager.NumVertsInSelection">NumVertsInSelection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumVertsInSelection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectedStrokeCount_" data-uid="TiltBrush.SelectionManager.SelectedStrokeCount*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectedStrokeCount" data-uid="TiltBrush.SelectionManager.SelectedStrokeCount">SelectedStrokeCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SelectedStrokeCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectedStrokes_" data-uid="TiltBrush.SelectionManager.SelectedStrokes*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectedStrokes" data-uid="TiltBrush.SelectionManager.SelectedStrokes">SelectedStrokes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Stroke&gt; SelectedStrokes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.Stroke.html">Stroke</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectedWidgets_" data-uid="TiltBrush.SelectionManager.SelectedWidgets*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectedWidgets" data-uid="TiltBrush.SelectionManager.SelectedWidgets">SelectedWidgets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;GrabWidget&gt; SelectedWidgets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectionCanBeGrouped_" data-uid="TiltBrush.SelectionManager.SelectionCanBeGrouped*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectionCanBeGrouped" data-uid="TiltBrush.SelectionManager.SelectionCanBeGrouped">SelectionCanBeGrouped</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SelectionCanBeGrouped { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectionIsInOneGroup_" data-uid="TiltBrush.SelectionManager.SelectionIsInOneGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectionIsInOneGroup" data-uid="TiltBrush.SelectionManager.SelectionIsInOneGroup">SelectionIsInOneGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SelectionIsInOneGroup { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectionToolIsHot_" data-uid="TiltBrush.SelectionManager.SelectionToolIsHot*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectionToolIsHot" data-uid="TiltBrush.SelectionManager.SelectionToolIsHot">SelectionToolIsHot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SelectionToolIsHot { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectionTransform_" data-uid="TiltBrush.SelectionManager.SelectionTransform*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectionTransform" data-uid="TiltBrush.SelectionManager.SelectionTransform">SelectionTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TrTransform SelectionTransform { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectionWasTransformed_" data-uid="TiltBrush.SelectionManager.SelectionWasTransformed*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectionWasTransformed" data-uid="TiltBrush.SelectionManager.SelectionWasTransformed">SelectionWasTransformed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SelectionWasTransformed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_SelectionManager_CacheSelectionTool_" data-uid="TiltBrush.SelectionManager.CacheSelectionTool*"></a>
+  <h4 id="TiltBrush_SelectionManager_CacheSelectionTool_TiltBrush_SelectionTool_" data-uid="TiltBrush.SelectionManager.CacheSelectionTool(TiltBrush.SelectionTool)">CacheSelectionTool(SelectionTool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CacheSelectionTool(SelectionTool tool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SelectionTool.html">SelectionTool</a></td>
+        <td><span class="parametername">tool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_ClearActiveSelection_" data-uid="TiltBrush.SelectionManager.ClearActiveSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_ClearActiveSelection" data-uid="TiltBrush.SelectionManager.ClearActiveSelection">ClearActiveSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearActiveSelection()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_CreateEndSelectionCommand_" data-uid="TiltBrush.SelectionManager.CreateEndSelectionCommand*"></a>
+  <h4 id="TiltBrush_SelectionManager_CreateEndSelectionCommand" data-uid="TiltBrush.SelectionManager.CreateEndSelectionCommand">CreateEndSelectionCommand()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseCommand CreateEndSelectionCommand()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BaseCommand.html">BaseCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_CurrentDeleteSelectionCommand_" data-uid="TiltBrush.SelectionManager.CurrentDeleteSelectionCommand*"></a>
+  <h4 id="TiltBrush_SelectionManager_CurrentDeleteSelectionCommand" data-uid="TiltBrush.SelectionManager.CurrentDeleteSelectionCommand">CurrentDeleteSelectionCommand()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DeleteSelectionCommand CurrentDeleteSelectionCommand()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.DeleteSelectionCommand.html">DeleteSelectionCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_DeleteSelection_" data-uid="TiltBrush.SelectionManager.DeleteSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_DeleteSelection" data-uid="TiltBrush.SelectionManager.DeleteSelection">DeleteSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSelection()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_DeregisterStrokesInSelectionCanvas_" data-uid="TiltBrush.SelectionManager.DeregisterStrokesInSelectionCanvas*"></a>
+  <h4 id="TiltBrush_SelectionManager_DeregisterStrokesInSelectionCanvas_ICollection_TiltBrush_Stroke__" data-uid="TiltBrush.SelectionManager.DeregisterStrokesInSelectionCanvas(ICollection{TiltBrush.Stroke})">DeregisterStrokesInSelectionCanvas(ICollection&lt;Stroke&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeregisterStrokesInSelectionCanvas(ICollection&lt;Stroke&gt; strokes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;<a class="xref" href="TiltBrush.Stroke.html">Stroke</a>&gt;</td>
+        <td><span class="parametername">strokes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_DeregisterWidgetsInSelectionCanvas_" data-uid="TiltBrush.SelectionManager.DeregisterWidgetsInSelectionCanvas*"></a>
+  <h4 id="TiltBrush_SelectionManager_DeregisterWidgetsInSelectionCanvas_ICollection_TiltBrush_GrabWidget__" data-uid="TiltBrush.SelectionManager.DeregisterWidgetsInSelectionCanvas(ICollection{TiltBrush.GrabWidget})">DeregisterWidgetsInSelectionCanvas(ICollection&lt;GrabWidget&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeregisterWidgetsInSelectionCanvas(ICollection&lt;GrabWidget&gt; widgets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;<a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a>&gt;</td>
+        <td><span class="parametername">widgets</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_DeselectStrokes_" data-uid="TiltBrush.SelectionManager.DeselectStrokes*"></a>
+  <h4 id="TiltBrush_SelectionManager_DeselectStrokes_IEnumerable_TiltBrush_Stroke__" data-uid="TiltBrush.SelectionManager.DeselectStrokes(IEnumerable{TiltBrush.Stroke})">DeselectStrokes(IEnumerable&lt;Stroke&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeselectStrokes(IEnumerable&lt;Stroke&gt; strokes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.Stroke.html">Stroke</a>&gt;</td>
+        <td><span class="parametername">strokes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_DeselectWidgets_" data-uid="TiltBrush.SelectionManager.DeselectWidgets*"></a>
+  <h4 id="TiltBrush_SelectionManager_DeselectWidgets_IEnumerable_TiltBrush_GrabWidget__" data-uid="TiltBrush.SelectionManager.DeselectWidgets(IEnumerable{TiltBrush.GrabWidget})">DeselectWidgets(IEnumerable&lt;GrabWidget&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeselectWidgets(IEnumerable&lt;GrabWidget&gt; widgets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a>&gt;</td>
+        <td><span class="parametername">widgets</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_EndGrabbingGroupWithWidget_" data-uid="TiltBrush.SelectionManager.EndGrabbingGroupWithWidget*"></a>
+  <h4 id="TiltBrush_SelectionManager_EndGrabbingGroupWithWidget" data-uid="TiltBrush.SelectionManager.EndGrabbingGroupWithWidget">EndGrabbingGroupWithWidget()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndGrabbingGroupWithWidget()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_FlipSelection_" data-uid="TiltBrush.SelectionManager.FlipSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_FlipSelection" data-uid="TiltBrush.SelectionManager.FlipSelection">FlipSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FlipSelection()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_ForgetStrokesInSelectionCanvas_" data-uid="TiltBrush.SelectionManager.ForgetStrokesInSelectionCanvas*"></a>
+  <h4 id="TiltBrush_SelectionManager_ForgetStrokesInSelectionCanvas" data-uid="TiltBrush.SelectionManager.ForgetStrokesInSelectionCanvas">ForgetStrokesInSelectionCanvas()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForgetStrokesInSelectionCanvas()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_InvertSelection_" data-uid="TiltBrush.SelectionManager.InvertSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_InvertSelection" data-uid="TiltBrush.SelectionManager.InvertSelection">InvertSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvertSelection()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_IsStrokeSelected_" data-uid="TiltBrush.SelectionManager.IsStrokeSelected*"></a>
+  <h4 id="TiltBrush_SelectionManager_IsStrokeSelected_TiltBrush_Stroke_" data-uid="TiltBrush.SelectionManager.IsStrokeSelected(TiltBrush.Stroke)">IsStrokeSelected(Stroke)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStrokeSelected(Stroke stroke)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.Stroke.html">Stroke</a></td>
+        <td><span class="parametername">stroke</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_IsWidgetSelected_" data-uid="TiltBrush.SelectionManager.IsWidgetSelected*"></a>
+  <h4 id="TiltBrush_SelectionManager_IsWidgetSelected_TiltBrush_GrabWidget_" data-uid="TiltBrush.SelectionManager.IsWidgetSelected(TiltBrush.GrabWidget)">IsWidgetSelected(GrabWidget)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWidgetSelected(GrabWidget widget)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a></td>
+        <td><span class="parametername">widget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_OnFinishReset_" data-uid="TiltBrush.SelectionManager.OnFinishReset*"></a>
+  <h4 id="TiltBrush_SelectionManager_OnFinishReset" data-uid="TiltBrush.SelectionManager.OnFinishReset">OnFinishReset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnFinishReset()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_OnStrokeAddedToGroup_" data-uid="TiltBrush.SelectionManager.OnStrokeAddedToGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_OnStrokeAddedToGroup_TiltBrush_Stroke_" data-uid="TiltBrush.SelectionManager.OnStrokeAddedToGroup(TiltBrush.Stroke)">OnStrokeAddedToGroup(Stroke)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnStrokeAddedToGroup(Stroke stroke)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.Stroke.html">Stroke</a></td>
+        <td><span class="parametername">stroke</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_OnStrokeRemovedFromGroup_" data-uid="TiltBrush.SelectionManager.OnStrokeRemovedFromGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_OnStrokeRemovedFromGroup_TiltBrush_Stroke_TiltBrush_SketchGroupTag_" data-uid="TiltBrush.SelectionManager.OnStrokeRemovedFromGroup(TiltBrush.Stroke,TiltBrush.SketchGroupTag)">OnStrokeRemovedFromGroup(Stroke, SketchGroupTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnStrokeRemovedFromGroup(Stroke stroke, SketchGroupTag oldGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.Stroke.html">Stroke</a></td>
+        <td><span class="parametername">stroke</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SketchGroupTag.html">SketchGroupTag</a></td>
+        <td><span class="parametername">oldGroup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_OnWidgetAddedToGroup_" data-uid="TiltBrush.SelectionManager.OnWidgetAddedToGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_OnWidgetAddedToGroup_TiltBrush_GrabWidget_" data-uid="TiltBrush.SelectionManager.OnWidgetAddedToGroup(TiltBrush.GrabWidget)">OnWidgetAddedToGroup(GrabWidget)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnWidgetAddedToGroup(GrabWidget widget)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a></td>
+        <td><span class="parametername">widget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_OnWidgetRemovedFromGroup_" data-uid="TiltBrush.SelectionManager.OnWidgetRemovedFromGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_OnWidgetRemovedFromGroup_TiltBrush_GrabWidget_TiltBrush_SketchGroupTag_" data-uid="TiltBrush.SelectionManager.OnWidgetRemovedFromGroup(TiltBrush.GrabWidget,TiltBrush.SketchGroupTag)">OnWidgetRemovedFromGroup(GrabWidget, SketchGroupTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnWidgetRemovedFromGroup(GrabWidget widget, SketchGroupTag oldGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a></td>
+        <td><span class="parametername">widget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SketchGroupTag.html">SketchGroupTag</a></td>
+        <td><span class="parametername">oldGroup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_RegisterStrokesInSelectionCanvas_" data-uid="TiltBrush.SelectionManager.RegisterStrokesInSelectionCanvas*"></a>
+  <h4 id="TiltBrush_SelectionManager_RegisterStrokesInSelectionCanvas_ICollection_TiltBrush_Stroke__" data-uid="TiltBrush.SelectionManager.RegisterStrokesInSelectionCanvas(ICollection{TiltBrush.Stroke})">RegisterStrokesInSelectionCanvas(ICollection&lt;Stroke&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterStrokesInSelectionCanvas(ICollection&lt;Stroke&gt; strokes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;<a class="xref" href="TiltBrush.Stroke.html">Stroke</a>&gt;</td>
+        <td><span class="parametername">strokes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_RegisterWidgetsInSelectionCanvas_" data-uid="TiltBrush.SelectionManager.RegisterWidgetsInSelectionCanvas*"></a>
+  <h4 id="TiltBrush_SelectionManager_RegisterWidgetsInSelectionCanvas_ICollection_TiltBrush_GrabWidget__" data-uid="TiltBrush.SelectionManager.RegisterWidgetsInSelectionCanvas(ICollection{TiltBrush.GrabWidget})">RegisterWidgetsInSelectionCanvas(ICollection&lt;GrabWidget&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterWidgetsInSelectionCanvas(ICollection&lt;GrabWidget&gt; widgets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ICollection</span>&lt;<a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a>&gt;</td>
+        <td><span class="parametername">widgets</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_RemoveFromSelection_" data-uid="TiltBrush.SelectionManager.RemoveFromSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_RemoveFromSelection_System_Boolean_" data-uid="TiltBrush.SelectionManager.RemoveFromSelection(System.Boolean)">RemoveFromSelection(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFromSelection(bool remove)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">remove</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_ResolveChanges_" data-uid="TiltBrush.SelectionManager.ResolveChanges*"></a>
+  <h4 id="TiltBrush_SelectionManager_ResolveChanges" data-uid="TiltBrush.SelectionManager.ResolveChanges">ResolveChanges()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResolveChanges()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectAll_" data-uid="TiltBrush.SelectionManager.SelectAll*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectAll" data-uid="TiltBrush.SelectionManager.SelectAll">SelectAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectAll()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectStrokes_" data-uid="TiltBrush.SelectionManager.SelectStrokes*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectStrokes_IEnumerable_TiltBrush_Stroke__" data-uid="TiltBrush.SelectionManager.SelectStrokes(IEnumerable{TiltBrush.Stroke})">SelectStrokes(IEnumerable&lt;Stroke&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectStrokes(IEnumerable&lt;Stroke&gt; strokes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.Stroke.html">Stroke</a>&gt;</td>
+        <td><span class="parametername">strokes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_SelectWidgets_" data-uid="TiltBrush.SelectionManager.SelectWidgets*"></a>
+  <h4 id="TiltBrush_SelectionManager_SelectWidgets_IEnumerable_TiltBrush_GrabWidget__" data-uid="TiltBrush.SelectionManager.SelectWidgets(IEnumerable{TiltBrush.GrabWidget})">SelectWidgets(IEnumerable&lt;GrabWidget&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectWidgets(IEnumerable&lt;GrabWidget&gt; widgets)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a>&gt;</td>
+        <td><span class="parametername">widgets</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_ShouldRemoveFromSelection_" data-uid="TiltBrush.SelectionManager.ShouldRemoveFromSelection*"></a>
+  <h4 id="TiltBrush_SelectionManager_ShouldRemoveFromSelection" data-uid="TiltBrush.SelectionManager.ShouldRemoveFromSelection">ShouldRemoveFromSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldRemoveFromSelection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_StartGrabbingGroupWithWidget_" data-uid="TiltBrush.SelectionManager.StartGrabbingGroupWithWidget*"></a>
+  <h4 id="TiltBrush_SelectionManager_StartGrabbingGroupWithWidget_TiltBrush_GrabWidget_" data-uid="TiltBrush.SelectionManager.StartGrabbingGroupWithWidget(TiltBrush.GrabWidget)">StartGrabbingGroupWithWidget(GrabWidget)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SelectionWidget StartGrabbingGroupWithWidget(GrabWidget grabWidget)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a></td>
+        <td><span class="parametername">grabWidget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SelectionWidget.html">SelectionWidget</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_StrokesInGroup_" data-uid="TiltBrush.SelectionManager.StrokesInGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_StrokesInGroup_TiltBrush_SketchGroupTag_" data-uid="TiltBrush.SelectionManager.StrokesInGroup(TiltBrush.SketchGroupTag)">StrokesInGroup(SketchGroupTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Stroke&gt; StrokesInGroup(SketchGroupTag group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SketchGroupTag.html">SketchGroupTag</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.Stroke.html">Stroke</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_SelectionManager_ToggleGroupSelectedStrokesAndWidgets_" data-uid="TiltBrush.SelectionManager.ToggleGroupSelectedStrokesAndWidgets*"></a>
+  <h4 id="TiltBrush_SelectionManager_ToggleGroupSelectedStrokesAndWidgets" data-uid="TiltBrush.SelectionManager.ToggleGroupSelectedStrokesAndWidgets">ToggleGroupSelectedStrokesAndWidgets()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleGroupSelectedStrokesAndWidgets()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_UpdateSelectionWidget_" data-uid="TiltBrush.SelectionManager.UpdateSelectionWidget*"></a>
+  <h4 id="TiltBrush_SelectionManager_UpdateSelectionWidget" data-uid="TiltBrush.SelectionManager.UpdateSelectionWidget">UpdateSelectionWidget()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateSelectionWidget()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_SelectionManager_WidgetsInGroup_" data-uid="TiltBrush.SelectionManager.WidgetsInGroup*"></a>
+  <h4 id="TiltBrush_SelectionManager_WidgetsInGroup_TiltBrush_SketchGroupTag_" data-uid="TiltBrush.SelectionManager.WidgetsInGroup(TiltBrush.SketchGroupTag)">WidgetsInGroup(SketchGroupTag)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;GrabWidget&gt; WidgetsInGroup(SketchGroupTag group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.SketchGroupTag.html">SketchGroupTag</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

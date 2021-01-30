@@ -1,0 +1,1457 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MathUtils
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MathUtils
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.MathUtils">
+  
+  
+  <h1 id="TiltBrush_MathUtils" data-uid="TiltBrush.MathUtils" class="text-break">Class MathUtils
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MathUtils</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_MathUtils_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MathUtils</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_MathUtils_ComputeMinimalRotationFrame_" data-uid="TiltBrush.MathUtils.ComputeMinimalRotationFrame*"></a>
+  <h4 id="TiltBrush_MathUtils_ComputeMinimalRotationFrame_Vector3_System_Nullable_Quaternion__Quaternion_" data-uid="TiltBrush.MathUtils.ComputeMinimalRotationFrame(Vector3,System.Nullable{Quaternion},Quaternion)">ComputeMinimalRotationFrame(Vector3, Nullable&lt;Quaternion&gt;, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ComputeMinimalRotationFrame(Vector3 tangent, Quaternion? previousFrame, Quaternion bootstrapOrientation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">tangent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Quaternion</span>&gt;</td>
+        <td><span class="parametername">previousFrame</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">bootstrapOrientation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_ConstrainRotationDelta_" data-uid="TiltBrush.MathUtils.ConstrainRotationDelta*"></a>
+  <h4 id="TiltBrush_MathUtils_ConstrainRotationDelta_Quaternion_Quaternion_Vector3_" data-uid="TiltBrush.MathUtils.ConstrainRotationDelta(Quaternion,Quaternion,Vector3)">ConstrainRotationDelta(Quaternion, Quaternion, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ConstrainRotationDelta(Quaternion q0, Quaternion q1, Vector3 axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">q0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">q1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_DecomposeMatrix4x4_" data-uid="TiltBrush.MathUtils.DecomposeMatrix4x4*"></a>
+  <h4 id="TiltBrush_MathUtils_DecomposeMatrix4x4_Matrix4x4_Vector3__Quaternion__System_Single__" data-uid="TiltBrush.MathUtils.DecomposeMatrix4x4(Matrix4x4,Vector3@,Quaternion@,System.Single@)">DecomposeMatrix4x4(Matrix4x4, out Vector3, out Quaternion, out Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DecomposeMatrix4x4(Matrix4x4 m, out Vector3 translation, out Quaternion rotation, out float uniformScale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">translation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">uniformScale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_GetAngleBetween_" data-uid="TiltBrush.MathUtils.GetAngleBetween*"></a>
+  <h4 id="TiltBrush_MathUtils_GetAngleBetween_Vector3_Vector3_Vector3_System_Single__" data-uid="TiltBrush.MathUtils.GetAngleBetween(Vector3,Vector3,Vector3,System.Single@)">GetAngleBetween(Vector3, Vector3, Vector3, out Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetAngleBetween(Vector3 v1, Vector3 v2, Vector3 nAxis, out float stability)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">v1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">v2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">nAxis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">stability</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_GetBoundsFor_" data-uid="TiltBrush.MathUtils.GetBoundsFor*"></a>
+  <h4 id="TiltBrush_MathUtils_GetBoundsFor_Matrix4x4_System_Int32_System_Int32_Vector3___Vector3__Vector3__" data-uid="TiltBrush.MathUtils.GetBoundsFor(Matrix4x4,System.Int32,System.Int32,Vector3[],Vector3@,Vector3@)">GetBoundsFor(Matrix4x4, Int32, Int32, Vector3[], out Vector3, out Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetBoundsFor(Matrix4x4 mat, int iVert, int iVertEnd, Vector3[] v3, out Vector3 center, out Vector3 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">mat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">v3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">center</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_LinearResampleCurve_" data-uid="TiltBrush.MathUtils.LinearResampleCurve*"></a>
+  <h4 id="TiltBrush_MathUtils_LinearResampleCurve_System_Single___System_Int32_" data-uid="TiltBrush.MathUtils.LinearResampleCurve(System.Single[],System.Int32)">LinearResampleCurve(Single[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;float&gt; LinearResampleCurve(float[] samples, int newSamples)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">samples</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">newSamples</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_MengerCurvature_" data-uid="TiltBrush.MathUtils.MengerCurvature*"></a>
+  <h4 id="TiltBrush_MathUtils_MengerCurvature_Vector3_Vector3_Vector3_" data-uid="TiltBrush.MathUtils.MengerCurvature(Vector3,Vector3,Vector3)">MengerCurvature(Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float MengerCurvature(Vector3 v0, Vector3 v1, Vector3 v2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">v0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">v1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">v2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_Min_" data-uid="TiltBrush.MathUtils.Min*"></a>
+  <h4 id="TiltBrush_MathUtils_Min_System_Int64_System_Int32_" data-uid="TiltBrush.MathUtils.Min(System.Int64,System.Int32)">Min(Int64, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Min(long a, int b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_PeriodicDifference_" data-uid="TiltBrush.MathUtils.PeriodicDifference*"></a>
+  <h4 id="TiltBrush_MathUtils_PeriodicDifference_System_Single_System_Single_System_Single_" data-uid="TiltBrush.MathUtils.PeriodicDifference(System.Single,System.Single,System.Single)">PeriodicDifference(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float PeriodicDifference(float lhs, float rhs, float period)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">period</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_PerspectiveOffCenter_" data-uid="TiltBrush.MathUtils.PerspectiveOffCenter*"></a>
+  <h4 id="TiltBrush_MathUtils_PerspectiveOffCenter_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="TiltBrush.MathUtils.PerspectiveOffCenter(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">PerspectiveOffCenter(Single, Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix4x4 PerspectiveOffCenter(float left, float right, float bottom, float top, float dist, float near, float far)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottom</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">top</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">near</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">far</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_ProjectPosOnPlane_" data-uid="TiltBrush.MathUtils.ProjectPosOnPlane*"></a>
+  <h4 id="TiltBrush_MathUtils_ProjectPosOnPlane_Vector3_Vector3_Vector3_" data-uid="TiltBrush.MathUtils.ProjectPosOnPlane(Vector3,Vector3,Vector3)">ProjectPosOnPlane(Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ProjectPosOnPlane(Vector3 planeNormal, Vector3 planePoint, Vector3 pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">planeNormal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">planePoint</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_RandomInt_" data-uid="TiltBrush.MathUtils.RandomInt*"></a>
+  <h4 id="TiltBrush_MathUtils_RandomInt" data-uid="TiltBrush.MathUtils.RandomInt">RandomInt()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RandomInt()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_RaySphereIntersection_" data-uid="TiltBrush.MathUtils.RaySphereIntersection*"></a>
+  <h4 id="TiltBrush_MathUtils_RaySphereIntersection_Vector3_Vector3_Vector3_System_Single_System_Single__System_Single__" data-uid="TiltBrush.MathUtils.RaySphereIntersection(Vector3,Vector3,Vector3,System.Single,System.Single@,System.Single@)">RaySphereIntersection(Vector3, Vector3, Vector3, Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RaySphereIntersection(Vector3 rayOrigin, Vector3 rayDirection, Vector3 sphereCenter, float sphereRadius, out float t0, out float t1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">rayOrigin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">rayDirection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">sphereCenter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">sphereRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_SolveQuadratic_" data-uid="TiltBrush.MathUtils.SolveQuadratic*"></a>
+  <h4 id="TiltBrush_MathUtils_SolveQuadratic_System_Single_System_Single_System_Single_System_Single__System_Single__" data-uid="TiltBrush.MathUtils.SolveQuadratic(System.Single,System.Single,System.Single,System.Single@,System.Single@)">SolveQuadratic(Single, Single, Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SolveQuadratic(float a, float b, float c, out float r0, out float r1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">r0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">r1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TransformVector3AsPoint_" data-uid="TiltBrush.MathUtils.TransformVector3AsPoint*"></a>
+  <h4 id="TiltBrush_MathUtils_TransformVector3AsPoint_Matrix4x4_System_Int32_System_Int32_Vector3___" data-uid="TiltBrush.MathUtils.TransformVector3AsPoint(Matrix4x4,System.Int32,System.Int32,Vector3[])">TransformVector3AsPoint(Matrix4x4, Int32, Int32, Vector3[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TransformVector3AsPoint(Matrix4x4 mat, int iVert, int iVertEnd, Vector3[] v3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">mat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">v3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TransformVector3AsVector_" data-uid="TiltBrush.MathUtils.TransformVector3AsVector*"></a>
+  <h4 id="TiltBrush_MathUtils_TransformVector3AsVector_Matrix4x4_System_Int32_System_Int32_Vector3___" data-uid="TiltBrush.MathUtils.TransformVector3AsVector(Matrix4x4,System.Int32,System.Int32,Vector3[])">TransformVector3AsVector(Matrix4x4, Int32, Int32, Vector3[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TransformVector3AsVector(Matrix4x4 mat, int iVert, int iVertEnd, Vector3[] v3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">mat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">v3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TransformVector3AsZDistance_" data-uid="TiltBrush.MathUtils.TransformVector3AsZDistance*"></a>
+  <h4 id="TiltBrush_MathUtils_TransformVector3AsZDistance_System_Single_System_Int32_System_Int32_Vector3___" data-uid="TiltBrush.MathUtils.TransformVector3AsZDistance(System.Single,System.Int32,System.Int32,Vector3[])">TransformVector3AsZDistance(Single, Int32, Int32, Vector3[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TransformVector3AsZDistance(float scale, int iVert, int iVertEnd, Vector3[] v3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">v3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TransformVector4AsPoint_" data-uid="TiltBrush.MathUtils.TransformVector4AsPoint*"></a>
+  <h4 id="TiltBrush_MathUtils_TransformVector4AsPoint_Matrix4x4_System_Int32_System_Int32_Vector4___" data-uid="TiltBrush.MathUtils.TransformVector4AsPoint(Matrix4x4,System.Int32,System.Int32,Vector4[])">TransformVector4AsPoint(Matrix4x4, Int32, Int32, Vector4[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TransformVector4AsPoint(Matrix4x4 mat, int iVert, int iVertEnd, Vector4[] v4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">mat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span>[]</td>
+        <td><span class="parametername">v4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TransformVector4AsVector_" data-uid="TiltBrush.MathUtils.TransformVector4AsVector*"></a>
+  <h4 id="TiltBrush_MathUtils_TransformVector4AsVector_Matrix4x4_System_Int32_System_Int32_Vector4___" data-uid="TiltBrush.MathUtils.TransformVector4AsVector(Matrix4x4,System.Int32,System.Int32,Vector4[])">TransformVector4AsVector(Matrix4x4, Int32, Int32, Vector4[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TransformVector4AsVector(Matrix4x4 mat, int iVert, int iVertEnd, Vector4[] v4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Matrix4x4</span></td>
+        <td><span class="parametername">mat</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span>[]</td>
+        <td><span class="parametername">v4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TransformVector4AsZDistance_" data-uid="TiltBrush.MathUtils.TransformVector4AsZDistance*"></a>
+  <h4 id="TiltBrush_MathUtils_TransformVector4AsZDistance_System_Single_System_Int32_System_Int32_Vector4___" data-uid="TiltBrush.MathUtils.TransformVector4AsZDistance(System.Single,System.Int32,System.Int32,Vector4[])">TransformVector4AsZDistance(Single, Int32, Int32, Vector4[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TransformVector4AsZDistance(float scale, int iVert, int iVertEnd, Vector4[] v4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVertEnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span>[]</td>
+        <td><span class="parametername">v4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TwoPointObjectTransformation_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformation*"></a>
+  <h4 id="TiltBrush_MathUtils_TwoPointObjectTransformation_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_System_Single_System_Single_Vector3_System_Boolean_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformation(TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,System.Single,System.Single,Vector3,System.Boolean)">TwoPointObjectTransformation(TrTransform, TrTransform, TrTransform, TrTransform, TrTransform, Single, Single, Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TrTransform TwoPointObjectTransformation(TrTransform gripL0, TrTransform gripR0, TrTransform gripL1, TrTransform gripR1, TrTransform obj0, float deltaScaleMin = -1F, float deltaScaleMax = -1F, Vector3 rotationAxisConstraint = null, bool bUseLeftAsPivot = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">obj0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScaleMin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScaleMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">rotationAxisConstraint</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bUseLeftAsPivot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TwoPointObjectTransformationAxisResize_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformationAxisResize*"></a>
+  <h4 id="TiltBrush_MathUtils_TwoPointObjectTransformationAxisResize_Vector3_System_Single_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_System_Single__System_Single_System_Single_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformationAxisResize(Vector3,System.Single,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,System.Single@,System.Single,System.Single)">TwoPointObjectTransformationAxisResize(Vector3, Single, TrTransform, TrTransform, TrTransform, TrTransform, TrTransform, out Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TrTransform TwoPointObjectTransformationAxisResize(Vector3 vScaleAxis0, float sizeAlongAxis, TrTransform gripL0, TrTransform gripR0, TrTransform gripL1, TrTransform gripR1, TrTransform obj0, out float deltaScale, float deltaScaleMin = 0F, float deltaScaleMax = InfinityF)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vScaleAxis0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">sizeAlongAxis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">obj0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScaleMin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScaleMax</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TwoPointObjectTransformationNonUniformScale_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformationNonUniformScale*"></a>
+  <h4 id="TiltBrush_MathUtils_TwoPointObjectTransformationNonUniformScale_Vector3_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_System_Single__System_Single_System_Single_System_Single_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformationNonUniformScale(Vector3,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,System.Single@,System.Single,System.Single,System.Single)">TwoPointObjectTransformationNonUniformScale(Vector3, TrTransform, TrTransform, TrTransform, TrTransform, TrTransform, out Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TrTransform TwoPointObjectTransformationNonUniformScale(Vector3 vScaleAxis0, TrTransform gripL0, TrTransform gripR0, TrTransform gripL1, TrTransform gripR1, TrTransform obj0, out float deltaScale, float finalScaleMin = -1F, float deltaScaleMin = -1F, float deltaScaleMax = -1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vScaleAxis0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">obj0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScale</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">finalScaleMin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScaleMin</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaScaleMax</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_MathUtils_TwoPointObjectTransformationNoScale_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformationNoScale*"></a>
+  <h4 id="TiltBrush_MathUtils_TwoPointObjectTransformationNoScale_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_TiltBrush_TrTransform_System_Single_" data-uid="TiltBrush.MathUtils.TwoPointObjectTransformationNoScale(TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,TiltBrush.TrTransform,System.Single)">TwoPointObjectTransformationNoScale(TrTransform, TrTransform, TrTransform, TrTransform, TrTransform, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TrTransform TwoPointObjectTransformationNoScale(TrTransform gripL0, TrTransform gripR0, TrTransform gripL1, TrTransform gripR1, TrTransform obj0, float constraintPositionT)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripL1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">gripR1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">obj0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">constraintPositionT</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

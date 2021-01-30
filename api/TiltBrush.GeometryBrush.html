@@ -1,0 +1,1523 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GeometryBrush
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GeometryBrush
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.GeometryBrush">
+  
+  
+  <h1 id="TiltBrush_GeometryBrush" data-uid="TiltBrush.GeometryBrush" class="text-break">Class GeometryBrush
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.BaseBrushScript.html">BaseBrushScript</a></div>
+    <div class="level2"><span class="xref">GeometryBrush</span></div>
+      <div class="level3"><a class="xref" href="TiltBrush.ConcaveHullBrush.html">ConcaveHullBrush</a></div>
+      <div class="level3"><a class="xref" href="TiltBrush.HullBrush.html">HullBrush</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_kPreviewDuration">BaseBrushScript.kPreviewDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Create_Transform_TiltBrush_TrTransform_TiltBrush_BrushDescriptor_Color_System_Single_">BaseBrushScript.Create(Transform, TrTransform, BrushDescriptor, Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_GetStrokeCost_TiltBrush_BrushDescriptor_System_Int32_System_Single_">BaseBrushScript.GetStrokeCost(BrushDescriptor, Int32, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_bCanBatch">BaseBrushScript.m_bCanBatch</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_Desc">BaseBrushScript.m_Desc</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_EnableBackfaces">BaseBrushScript.m_EnableBackfaces</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_PreviewMode">BaseBrushScript.m_PreviewMode</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_IsLoading">BaseBrushScript.m_IsLoading</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_Color">BaseBrushScript.m_Color</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_LastSpawnXf">BaseBrushScript.m_LastSpawnXf</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_LastSpawnPos">BaseBrushScript.m_LastSpawnPos</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_BaseSize_PS">BaseBrushScript.m_BaseSize_PS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_m_rng">BaseBrushScript.m_rng</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_StrokeScale">BaseBrushScript.StrokeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_LOCAL_TO_POINTER">BaseBrushScript.LOCAL_TO_POINTER</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_POINTER_TO_LOCAL">BaseBrushScript.POINTER_TO_LOCAL</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_BaseSize_PS">BaseBrushScript.BaseSize_PS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_BaseSize_LS">BaseBrushScript.BaseSize_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Canvas">BaseBrushScript.Canvas</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Descriptor">BaseBrushScript.Descriptor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_CurrentColor">BaseBrushScript.CurrentColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_RandomSeed">BaseBrushScript.RandomSeed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_Stroke">BaseBrushScript.Stroke</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_SetIsLoading">BaseBrushScript.SetIsLoading()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_SetPreviewMode">BaseBrushScript.SetPreviewMode()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_CloneAsUndoObject">BaseBrushScript.CloneAsUndoObject()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_UpdatePosition_LS_TiltBrush_TrTransform_System_Single_">BaseBrushScript.UpdatePosition_LS(TrTransform, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_SetPreviewProperties_Color_System_Single_">BaseBrushScript.SetPreviewProperties(Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_DestroyMesh">BaseBrushScript.DestroyMesh()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_GetVertexLayout_TiltBrush_BrushDescriptor_">BaseBrushScript.GetVertexLayout(BrushDescriptor)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_HideBrush_System_Boolean_">BaseBrushScript.HideBrush(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_GetSpawnInterval_System_Single_">BaseBrushScript.GetSpawnInterval(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_DecayBrush">BaseBrushScript.DecayBrush()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_NeedsStraightEdgeProxy">BaseBrushScript.NeedsStraightEdgeProxy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_PressuredSize_System_Single_">BaseBrushScript.PressuredSize(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_PressuredRandomSize_System_Single_System_Int32_">BaseBrushScript.PressuredRandomSize(Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_PressuredOpacity_System_Single_">BaseBrushScript.PressuredOpacity(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeSurfaceFrameNew_Vector3_Vector3_Quaternion_Vector3__Vector3__">BaseBrushScript.ComputeSurfaceFrameNew(Vector3, Vector3, Quaternion, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_HashFloat01_System_Single_">BaseBrushScript.HashFloat01(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_MirrorQuadFace__1___0___System_Int32_">BaseBrushScript.MirrorQuadFace&lt;T&gt;(T[], Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_MirrorQuadFace__1_List___0__System_Int32_">BaseBrushScript.MirrorQuadFace&lt;T&gt;(List&lt;T&gt;, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_MirrorTangents_Vector4___System_Int32_">BaseBrushScript.MirrorTangents(Vector4[], Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_CreateDuplicateQuad_Vector3___Vector3___System_Int32_Vector3_">BaseBrushScript.CreateDuplicateQuad(Vector3[], Vector3[], Int32, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeTangentSpaceForQuads_Vector3___Vector2___Vector3___Vector4___System_Int32_System_Int32_System_Int32_">BaseBrushScript.ComputeTangentSpaceForQuads(Vector3[], Vector2[], Vector3[], Vector4[], Int32, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeST_Vector3___Vector2___System_Int32_Vector3__Vector3__">BaseBrushScript.ComputeST(Vector3[], Vector2[], Int32, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeST_IList_Vector3__IList_Vector2__System_Int32_System_Int32_System_Int32_System_Int32_Vector3__Vector3__">BaseBrushScript.ComputeST(IList&lt;Vector3&gt;, IList&lt;Vector2&gt;, Int32, Int32, Int32, Int32, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ComputeS_Vector3___Vector2___System_Int32_Vector3__">BaseBrushScript.ComputeS(Vector3[], Vector2[], Int32, Vector3)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_GeometryBrush_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class GeometryBrush : BaseBrushScript</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TiltBrush_GeometryBrush__ctor_" data-uid="TiltBrush.GeometryBrush.#ctor*"></a>
+  <h4 id="TiltBrush_GeometryBrush__ctor_System_Boolean_System_Int32_System_Boolean_System_Boolean_" data-uid="TiltBrush.GeometryBrush.#ctor(System.Boolean,System.Int32,System.Boolean,System.Boolean)">GeometryBrush(Boolean, Int32, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GeometryBrush(bool bCanBatch, int upperBoundVertsPerKnot, bool bDoubleSided, bool bSmoothPositions = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bCanBatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">upperBoundVertsPerKnot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bDoubleSided</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bSmoothPositions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_bDoubleSided" data-uid="TiltBrush.GeometryBrush.m_bDoubleSided">m_bDoubleSided</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_bDoubleSided</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_bM11Compatibility" data-uid="TiltBrush.GeometryBrush.m_bM11Compatibility">m_bM11Compatibility</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_bM11Compatibility</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_bSmoothPositions" data-uid="TiltBrush.GeometryBrush.m_bSmoothPositions">m_bSmoothPositions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly bool m_bSmoothPositions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_CachedNumTris" data-uid="TiltBrush.GeometryBrush.m_CachedNumTris">m_CachedNumTris</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int m_CachedNumTris</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_CachedNumVerts" data-uid="TiltBrush.GeometryBrush.m_CachedNumVerts">m_CachedNumVerts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int m_CachedNumVerts</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_FirstChangedControlPoint" data-uid="TiltBrush.GeometryBrush.m_FirstChangedControlPoint">m_FirstChangedControlPoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int? m_FirstChangedControlPoint</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_geometry" data-uid="TiltBrush.GeometryBrush.m_geometry">m_geometry</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GeometryPool m_geometry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GeometryPool.html">GeometryPool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_knots" data-uid="TiltBrush.GeometryBrush.m_knots">m_knots</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;GeometryBrush.Knot&gt; m_knots</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TiltBrush.GeometryBrush.Knot.html">GeometryBrush.Knot</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_SoftVertexLimit" data-uid="TiltBrush.GeometryBrush.m_SoftVertexLimit">m_SoftVertexLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly int m_SoftVertexLimit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_m_UpperBoundVertsPerKnot" data-uid="TiltBrush.GeometryBrush.m_UpperBoundVertsPerKnot">m_UpperBoundVertsPerKnot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int m_UpperBoundVertsPerKnot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_GeometryBrush_NS" data-uid="TiltBrush.GeometryBrush.NS">NS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int NS</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_GeometryBrush_NumTris_" data-uid="TiltBrush.GeometryBrush.NumTris*"></a>
+  <h4 id="TiltBrush_GeometryBrush_NumTris" data-uid="TiltBrush.GeometryBrush.NumTris">NumTris</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumTris { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_NumVerts_" data-uid="TiltBrush.GeometryBrush.NumVerts*"></a>
+  <h4 id="TiltBrush_GeometryBrush_NumVerts" data-uid="TiltBrush.GeometryBrush.NumVerts">NumVerts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumVerts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_GeometryBrush_AlwaysRebuildPreviewBrush_" data-uid="TiltBrush.GeometryBrush.AlwaysRebuildPreviewBrush*"></a>
+  <h4 id="TiltBrush_GeometryBrush_AlwaysRebuildPreviewBrush" data-uid="TiltBrush.GeometryBrush.AlwaysRebuildPreviewBrush">AlwaysRebuildPreviewBrush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool AlwaysRebuildPreviewBrush()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_AlwaysRebuildPreviewBrush">BaseBrushScript.AlwaysRebuildPreviewBrush()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ApplyChangesToVisuals_" data-uid="TiltBrush.GeometryBrush.ApplyChangesToVisuals*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ApplyChangesToVisuals" data-uid="TiltBrush.GeometryBrush.ApplyChangesToVisuals">ApplyChangesToVisuals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ApplyChangesToVisuals()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ApplyChangesToVisuals">BaseBrushScript.ApplyChangesToVisuals()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ApplySmoothing_" data-uid="TiltBrush.GeometryBrush.ApplySmoothing*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ApplySmoothing_TiltBrush_GeometryBrush_Knot_TiltBrush_GeometryBrush_Knot__" data-uid="TiltBrush.GeometryBrush.ApplySmoothing(TiltBrush.GeometryBrush.Knot,TiltBrush.GeometryBrush.Knot@)">ApplySmoothing(GeometryBrush.Knot, ref GeometryBrush.Knot)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ApplySmoothing(GeometryBrush.Knot prev, ref GeometryBrush.Knot next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GeometryBrush.Knot.html">GeometryBrush.Knot</a></td>
+        <td><span class="parametername">prev</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.GeometryBrush.Knot.html">GeometryBrush.Knot</a></td>
+        <td><span class="parametername">next</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_BruteForceRecomputeTangents_" data-uid="TiltBrush.GeometryBrush.BruteForceRecomputeTangents*"></a>
+  <h4 id="TiltBrush_GeometryBrush_BruteForceRecomputeTangents_System_Int32_List_Vector2__" data-uid="TiltBrush.GeometryBrush.BruteForceRecomputeTangents(System.Int32,List{Vector2})">BruteForceRecomputeTangents(Int32, List&lt;Vector2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BruteForceRecomputeTangents(int iKnot0, List&lt;Vector2&gt; uvs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iKnot0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Vector2</span>&gt;</td>
+        <td><span class="parametername">uvs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_CheckKnotInvariants_" data-uid="TiltBrush.GeometryBrush.CheckKnotInvariants*"></a>
+  <h4 id="TiltBrush_GeometryBrush_CheckKnotInvariants" data-uid="TiltBrush.GeometryBrush.CheckKnotInvariants">CheckKnotInvariants()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CheckKnotInvariants()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ControlPointsChanged_" data-uid="TiltBrush.GeometryBrush.ControlPointsChanged*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ControlPointsChanged_System_Int32_" data-uid="TiltBrush.GeometryBrush.ControlPointsChanged(System.Int32)">ControlPointsChanged(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void ControlPointsChanged(int iKnot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iKnot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_DebugGetGeometry_" data-uid="TiltBrush.GeometryBrush.DebugGetGeometry*"></a>
+  <h4 id="TiltBrush_GeometryBrush_DebugGetGeometry_Vector3____System_Int32__Vector2____System_Int32____System_Int32__" data-uid="TiltBrush.GeometryBrush.DebugGetGeometry(Vector3[]@,System.Int32@,Vector2[]@,System.Int32[]@,System.Int32@)">DebugGetGeometry(out Vector3[], out Int32, out Vector2[], out Int32[], out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DebugGetGeometry(out Vector3[] verts, out int nVerts, out Vector2[] uv0s, out int[] tris, out int nTris)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">verts</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nVerts</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span>[]</td>
+        <td><span class="parametername">uv0s</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">tris</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nTris</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_DebugGetGeometry_Vector3____System_Int32__Vector2____System_Int32____System_Int32__">BaseBrushScript.DebugGetGeometry(out Vector3[], out Int32, out Vector2[], out Int32[], out Int32)</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_DistanceFromKnot_" data-uid="TiltBrush.GeometryBrush.DistanceFromKnot*"></a>
+  <h4 id="TiltBrush_GeometryBrush_DistanceFromKnot_System_Int32_Vector3_" data-uid="TiltBrush.GeometryBrush.DistanceFromKnot(System.Int32,Vector3)">DistanceFromKnot(Int32, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual float DistanceFromKnot(int knotIndex, Vector3 pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">knotIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_FinalizeBatchedBrush_" data-uid="TiltBrush.GeometryBrush.FinalizeBatchedBrush*"></a>
+  <h4 id="TiltBrush_GeometryBrush_FinalizeBatchedBrush" data-uid="TiltBrush.GeometryBrush.FinalizeBatchedBrush">FinalizeBatchedBrush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override BatchSubset FinalizeBatchedBrush()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BatchSubset.html">BatchSubset</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_FinalizeBatchedBrush">BaseBrushScript.FinalizeBatchedBrush()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_FinalizeSolitaryBrush_" data-uid="TiltBrush.GeometryBrush.FinalizeSolitaryBrush*"></a>
+  <h4 id="TiltBrush_GeometryBrush_FinalizeSolitaryBrush" data-uid="TiltBrush.GeometryBrush.FinalizeSolitaryBrush">FinalizeSolitaryBrush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void FinalizeSolitaryBrush()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_FinalizeSolitaryBrush">BaseBrushScript.FinalizeSolitaryBrush()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_GetNumUsedVerts_" data-uid="TiltBrush.GeometryBrush.GetNumUsedVerts*"></a>
+  <h4 id="TiltBrush_GeometryBrush_GetNumUsedVerts" data-uid="TiltBrush.GeometryBrush.GetNumUsedVerts">GetNumUsedVerts()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetNumUsedVerts()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_GetNumUsedVerts">BaseBrushScript.GetNumUsedVerts()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_InitBrush_" data-uid="TiltBrush.GeometryBrush.InitBrush*"></a>
+  <h4 id="TiltBrush_GeometryBrush_InitBrush_TiltBrush_BrushDescriptor_TiltBrush_TrTransform_" data-uid="TiltBrush.GeometryBrush.InitBrush(TiltBrush.BrushDescriptor,TiltBrush.TrTransform)">InitBrush(BrushDescriptor, TrTransform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InitBrush(BrushDescriptor desc, TrTransform localPointerXf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BrushDescriptor.html">BrushDescriptor</a></td>
+        <td><span class="parametername">desc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">localPointerXf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_InitBrush_TiltBrush_BrushDescriptor_TiltBrush_TrTransform_">BaseBrushScript.InitBrush(BrushDescriptor, TrTransform)</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_InitUndoClone_" data-uid="TiltBrush.GeometryBrush.InitUndoClone*"></a>
+  <h4 id="TiltBrush_GeometryBrush_InitUndoClone_GameObject_" data-uid="TiltBrush.GeometryBrush.InitUndoClone(GameObject)">InitUndoClone(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InitUndoClone(GameObject clone)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">clone</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_InitUndoClone_GameObject_">BaseBrushScript.InitUndoClone(GameObject)</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_IsOutOfVerts_" data-uid="TiltBrush.GeometryBrush.IsOutOfVerts*"></a>
+  <h4 id="TiltBrush_GeometryBrush_IsOutOfVerts" data-uid="TiltBrush.GeometryBrush.IsOutOfVerts">IsOutOfVerts()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsOutOfVerts()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_IsOutOfVerts">BaseBrushScript.IsOutOfVerts()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_RemoveInitialKnots_" data-uid="TiltBrush.GeometryBrush.RemoveInitialKnots*"></a>
+  <h4 id="TiltBrush_GeometryBrush_RemoveInitialKnots_System_Int32_" data-uid="TiltBrush.GeometryBrush.RemoveInitialKnots(System.Int32)">RemoveInitialKnots(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RemoveInitialKnots(int knotsToShift)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">knotsToShift</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ResetBrushForPreview_" data-uid="TiltBrush.GeometryBrush.ResetBrushForPreview*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ResetBrushForPreview_TiltBrush_TrTransform_" data-uid="TiltBrush.GeometryBrush.ResetBrushForPreview(TiltBrush.TrTransform)">ResetBrushForPreview(TrTransform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ResetBrushForPreview(TrTransform localPointerXf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">localPointerXf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ResetBrushForPreview_TiltBrush_TrTransform_">BaseBrushScript.ResetBrushForPreview(TrTransform)</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ResizeGeometry_" data-uid="TiltBrush.GeometryBrush.ResizeGeometry*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ResizeGeometry" data-uid="TiltBrush.GeometryBrush.ResizeGeometry">ResizeGeometry()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ResizeGeometry()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetDoubleSided_" data-uid="TiltBrush.GeometryBrush.SetDoubleSided*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetDoubleSided_TiltBrush_BrushDescriptor_" data-uid="TiltBrush.GeometryBrush.SetDoubleSided(TiltBrush.BrushDescriptor)">SetDoubleSided(BrushDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetDoubleSided(BrushDescriptor desc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BrushDescriptor.html">BrushDescriptor</a></td>
+        <td><span class="parametername">desc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetTangent_" data-uid="TiltBrush.GeometryBrush.SetTangent*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetTangent_System_Int32_System_Int32_Vector3_System_Single_" data-uid="TiltBrush.GeometryBrush.SetTangent(System.Int32,System.Int32,Vector3,System.Single)">SetTangent(Int32, Int32, Vector3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetTangent(int iVert, int vp, Vector3 tangent, float w = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">tangent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">w</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetTri_" data-uid="TiltBrush.GeometryBrush.SetTri*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetTri_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="TiltBrush.GeometryBrush.SetTri(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">SetTri(Int32, Int32, Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetTri(int iTri, int iVert, int tp, int vp0, int vp1, int vp2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iTri</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetUv0_" data-uid="TiltBrush.GeometryBrush.SetUv0*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetUv0_System_Int32_System_Int32_Vector2_" data-uid="TiltBrush.GeometryBrush.SetUv0(System.Int32,System.Int32,Vector2)">SetUv0(Int32, Int32, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetUv0(int iVert, int vp, Vector2 data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetUv0_" data-uid="TiltBrush.GeometryBrush.SetUv0*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetUv0_System_Int32_System_Int32_Vector4_" data-uid="TiltBrush.GeometryBrush.SetUv0(System.Int32,System.Int32,Vector4)">SetUv0(Int32, Int32, Vector4)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetUv0(int iVert, int vp, Vector4 data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetUv1_" data-uid="TiltBrush.GeometryBrush.SetUv1*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetUv1_System_Int32_System_Int32_Vector3_" data-uid="TiltBrush.GeometryBrush.SetUv1(System.Int32,System.Int32,Vector3)">SetUv1(Int32, Int32, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetUv1(int iVert, int vp, Vector3 data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetUv1_" data-uid="TiltBrush.GeometryBrush.SetUv1*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetUv1_System_Int32_System_Int32_Vector4_" data-uid="TiltBrush.GeometryBrush.SetUv1(System.Int32,System.Int32,Vector4)">SetUv1(Int32, Int32, Vector4)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetUv1(int iVert, int vp, Vector4 data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_SetVert_" data-uid="TiltBrush.GeometryBrush.SetVert*"></a>
+  <h4 id="TiltBrush_GeometryBrush_SetVert_System_Int32_System_Int32_Vector3_Vector3_Color32_System_Single_" data-uid="TiltBrush.GeometryBrush.SetVert(System.Int32,System.Int32,Vector3,Vector3,Color32,System.Single)">SetVert(Int32, Int32, Vector3, Vector3, Color32, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetVert(int iVert, int vp, Vector3 v, Vector3 n, Color32 c, float alpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iVert</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Color32</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ShouldCurrentLineEnd_" data-uid="TiltBrush.GeometryBrush.ShouldCurrentLineEnd*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ShouldCurrentLineEnd" data-uid="TiltBrush.GeometryBrush.ShouldCurrentLineEnd">ShouldCurrentLineEnd()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ShouldCurrentLineEnd()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ShouldCurrentLineEnd">BaseBrushScript.ShouldCurrentLineEnd()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_ShouldDiscard_" data-uid="TiltBrush.GeometryBrush.ShouldDiscard*"></a>
+  <h4 id="TiltBrush_GeometryBrush_ShouldDiscard" data-uid="TiltBrush.GeometryBrush.ShouldDiscard">ShouldDiscard()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ShouldDiscard()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_ShouldDiscard">BaseBrushScript.ShouldDiscard()</a></div>
+  
+  
+  <a id="TiltBrush_GeometryBrush_UpdatePositionImpl_" data-uid="TiltBrush.GeometryBrush.UpdatePositionImpl*"></a>
+  <h4 id="TiltBrush_GeometryBrush_UpdatePositionImpl_Vector3_Quaternion_System_Single_" data-uid="TiltBrush.GeometryBrush.UpdatePositionImpl(Vector3,Quaternion,System.Single)">UpdatePositionImpl(Vector3, Quaternion, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool UpdatePositionImpl(Vector3 pos, Quaternion ori, float pressure)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">ori</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pressure</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseBrushScript.html#TiltBrush_BaseBrushScript_UpdatePositionImpl_Vector3_Quaternion_System_Single_">BaseBrushScript.UpdatePositionImpl(Vector3, Quaternion, Single)</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,632 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UIComponentManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UIComponentManager
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.UIComponentManager">
+  
+  
+  <h1 id="TiltBrush_UIComponentManager" data-uid="TiltBrush.UIComponentManager" class="text-break">Class UIComponentManager
+  </h1>
+  <div class="markdown level0 summary"><p>The workhorse for updating any UIComponent children.
+This component must be updated by another component to provide fine control over when
+the objects are ticked.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UIComponentManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_UIComponentManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UIComponentManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_UIComponentManager_ActiveInputObject_" data-uid="TiltBrush.UIComponentManager.ActiveInputObject*"></a>
+  <h4 id="TiltBrush_UIComponentManager_ActiveInputObject" data-uid="TiltBrush.UIComponentManager.ActiveInputObject">ActiveInputObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject ActiveInputObject { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_ActiveInputUIComponent_" data-uid="TiltBrush.UIComponentManager.ActiveInputUIComponent*"></a>
+  <h4 id="TiltBrush_UIComponentManager_ActiveInputUIComponent" data-uid="TiltBrush.UIComponentManager.ActiveInputUIComponent">ActiveInputUIComponent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UIComponent ActiveInputUIComponent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.UIComponent.html">UIComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_ParentManager_" data-uid="TiltBrush.UIComponentManager.ParentManager*"></a>
+  <h4 id="TiltBrush_UIComponentManager_ParentManager" data-uid="TiltBrush.UIComponentManager.ParentManager">ParentManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UIComponentManager ParentManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.UIComponentManager.html">UIComponentManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_UIComponentManager_AssignControllerMaterials_" data-uid="TiltBrush.UIComponentManager.AssignControllerMaterials*"></a>
+  <h4 id="TiltBrush_UIComponentManager_AssignControllerMaterials_TiltBrush_InputManager_ControllerName_" data-uid="TiltBrush.UIComponentManager.AssignControllerMaterials(TiltBrush.InputManager.ControllerName)">AssignControllerMaterials(InputManager.ControllerName)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AssignControllerMaterials(InputManager.ControllerName controller)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.InputManager.ControllerName.html">InputManager.ControllerName</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_BrushPadAnimatesOnAnyHover_" data-uid="TiltBrush.UIComponentManager.BrushPadAnimatesOnAnyHover*"></a>
+  <h4 id="TiltBrush_UIComponentManager_BrushPadAnimatesOnAnyHover" data-uid="TiltBrush.UIComponentManager.BrushPadAnimatesOnAnyHover">BrushPadAnimatesOnAnyHover()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BrushPadAnimatesOnAnyHover()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_CalculateReticleCollision_" data-uid="TiltBrush.UIComponentManager.CalculateReticleCollision*"></a>
+  <h4 id="TiltBrush_UIComponentManager_CalculateReticleCollision_Ray_Vector3__Vector3__" data-uid="TiltBrush.UIComponentManager.CalculateReticleCollision(Ray,Vector3@,Vector3@)">CalculateReticleCollision(Ray, ref Vector3, ref Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CalculateReticleCollision(Ray castRay, ref Vector3 pos, ref Vector3 forward)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Ray</span></td>
+        <td><span class="parametername">castRay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">forward</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_Deactivate_" data-uid="TiltBrush.UIComponentManager.Deactivate*"></a>
+  <h4 id="TiltBrush_UIComponentManager_Deactivate" data-uid="TiltBrush.UIComponentManager.Deactivate">Deactivate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deactivate()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_UIComponentManager_GazeRatioChanged_" data-uid="TiltBrush.UIComponentManager.GazeRatioChanged*"></a>
+  <h4 id="TiltBrush_UIComponentManager_GazeRatioChanged_System_Single_" data-uid="TiltBrush.UIComponentManager.GazeRatioChanged(System.Single)">GazeRatioChanged(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GazeRatioChanged(float gazeRatio)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">gazeRatio</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_GetControllerPadShaderRatio_" data-uid="TiltBrush.UIComponentManager.GetControllerPadShaderRatio*"></a>
+  <h4 id="TiltBrush_UIComponentManager_GetControllerPadShaderRatio_TiltBrush_InputManager_ControllerName_" data-uid="TiltBrush.UIComponentManager.GetControllerPadShaderRatio(TiltBrush.InputManager.ControllerName)">GetControllerPadShaderRatio(InputManager.ControllerName)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetControllerPadShaderRatio(InputManager.ControllerName controller)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.InputManager.ControllerName.html">InputManager.ControllerName</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_GetPanelForPopUps_" data-uid="TiltBrush.UIComponentManager.GetPanelForPopUps*"></a>
+  <h4 id="TiltBrush_UIComponentManager_GetPanelForPopUps" data-uid="TiltBrush.UIComponentManager.GetPanelForPopUps">GetPanelForPopUps()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BasePanel GetPanelForPopUps()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.BasePanel.html">BasePanel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_ManagerLostFocus_" data-uid="TiltBrush.UIComponentManager.ManagerLostFocus*"></a>
+  <h4 id="TiltBrush_UIComponentManager_ManagerLostFocus" data-uid="TiltBrush.UIComponentManager.ManagerLostFocus">ManagerLostFocus()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ManagerLostFocus()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_UIComponentManager_RaycastAgainstCustomColliders_" data-uid="TiltBrush.UIComponentManager.RaycastAgainstCustomColliders*"></a>
+  <h4 id="TiltBrush_UIComponentManager_RaycastAgainstCustomColliders_Ray_RaycastHit__System_Single_" data-uid="TiltBrush.UIComponentManager.RaycastAgainstCustomColliders(Ray,RaycastHit@,System.Single)">RaycastAgainstCustomColliders(Ray, out RaycastHit, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RaycastAgainstCustomColliders(Ray ray, out RaycastHit hitInfo, float dist)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Ray</span></td>
+        <td><span class="parametername">ray</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">RaycastHit</span></td>
+        <td><span class="parametername">hitInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">dist</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_RegisterUIComponent_" data-uid="TiltBrush.UIComponentManager.RegisterUIComponent*"></a>
+  <h4 id="TiltBrush_UIComponentManager_RegisterUIComponent_TiltBrush_UIComponent_" data-uid="TiltBrush.UIComponentManager.RegisterUIComponent(TiltBrush.UIComponent)">RegisterUIComponent(UIComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterUIComponent(UIComponent comp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.UIComponent.html">UIComponent</a></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_ResetInput_" data-uid="TiltBrush.UIComponentManager.ResetInput*"></a>
+  <h4 id="TiltBrush_UIComponentManager_ResetInput" data-uid="TiltBrush.UIComponentManager.ResetInput">ResetInput()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetInput()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_UIComponentManager_SendMessageToComponents_" data-uid="TiltBrush.UIComponentManager.SendMessageToComponents*"></a>
+  <h4 id="TiltBrush_UIComponentManager_SendMessageToComponents_TiltBrush_UIComponent_ComponentMessage_System_Int32_" data-uid="TiltBrush.UIComponentManager.SendMessageToComponents(TiltBrush.UIComponent.ComponentMessage,System.Int32)">SendMessageToComponents(UIComponent.ComponentMessage, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendMessageToComponents(UIComponent.ComponentMessage type, int param)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.UIComponent.ComponentMessage.html">UIComponent.ComponentMessage</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_SetColor_" data-uid="TiltBrush.UIComponentManager.SetColor*"></a>
+  <h4 id="TiltBrush_UIComponentManager_SetColor_Color_" data-uid="TiltBrush.UIComponentManager.SetColor(Color)">SetColor(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColor(Color col)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">col</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_UnregisterUIComponent_" data-uid="TiltBrush.UIComponentManager.UnregisterUIComponent*"></a>
+  <h4 id="TiltBrush_UIComponentManager_UnregisterUIComponent_TiltBrush_UIComponent_" data-uid="TiltBrush.UIComponentManager.UnregisterUIComponent(TiltBrush.UIComponent)">UnregisterUIComponent(UIComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterUIComponent(UIComponent comp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.UIComponent.html">UIComponent</a></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_UpdateUIComponents_" data-uid="TiltBrush.UIComponentManager.UpdateUIComponents*"></a>
+  <h4 id="TiltBrush_UIComponentManager_UpdateUIComponents_Ray_System_Boolean_Collider_" data-uid="TiltBrush.UIComponentManager.UpdateUIComponents(Ray,System.Boolean,Collider)">UpdateUIComponents(Ray, Boolean, Collider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateUIComponents(Ray selectionRay, bool inputValid, Collider parentCollider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Ray</span></td>
+        <td><span class="parametername">selectionRay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inputValid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Collider</span></td>
+        <td><span class="parametername">parentCollider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_UIComponentManager_UpdateVisuals_" data-uid="TiltBrush.UIComponentManager.UpdateVisuals*"></a>
+  <h4 id="TiltBrush_UIComponentManager_UpdateVisuals" data-uid="TiltBrush.UIComponentManager.UpdateVisuals">UpdateVisuals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateVisuals()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

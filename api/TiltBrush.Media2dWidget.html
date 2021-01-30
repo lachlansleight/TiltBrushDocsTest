@@ -1,0 +1,1520 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Media2dWidget
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Media2dWidget
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.Media2dWidget">
+  
+  
+  <h1 id="TiltBrush_Media2dWidget" data-uid="TiltBrush.Media2dWidget" class="text-break">Class Media2dWidget
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.GrabWidget.html">GrabWidget</a></div>
+    <div class="level2"><a class="xref" href="TiltBrush.MediaWidget.html">MediaWidget</a></div>
+    <div class="level3"><span class="xref">Media2dWidget</span></div>
+      <div class="level4"><a class="xref" href="TiltBrush.ImageWidget.html">ImageWidget</a></div>
+      <div class="level4"><a class="xref" href="TiltBrush.VideoWidget.html">VideoWidget</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_SelectionIndicatorRenderer">MediaWidget.m_SelectionIndicatorRenderer</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_ContainerBloat">MediaWidget.m_ContainerBloat</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_UngrabbableFromInside">MediaWidget.m_UngrabbableFromInside</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_MinSize_CS">MediaWidget.m_MinSize_CS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_MaxSize_CS">MediaWidget.m_MaxSize_CS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_Size">MediaWidget.m_Size</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_m_LoadingFromSketch">MediaWidget.m_LoadingFromSketch</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_LoadingFromSketch">MediaWidget.LoadingFromSketch</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_SupportsNegativeSize">MediaWidget.SupportsNegativeSize</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_OnHide">MediaWidget.OnHide()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_GetExportName">MediaWidget.GetExportName()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_GetSignedWidgetSize">MediaWidget.GetSignedWidgetSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_GetWidgetSizeRange">MediaWidget.GetWidgetSizeRange()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_RestoreFromToss">MediaWidget.RestoreFromToss()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_InactiveGrey">GrabWidget.m_InactiveGrey</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_AngVelDampThreshold">GrabWidget.m_AngVelDampThreshold</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_ShowDuration">GrabWidget.m_ShowDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_GrabDistance">GrabWidget.m_GrabDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_CollisionRadius">GrabWidget.m_CollisionRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_RecordMovements">GrabWidget.m_RecordMovements</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_AllowSnapping">GrabWidget.m_AllowSnapping</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_TintableMeshes">GrabWidget.m_TintableMeshes</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_BoxCollider">GrabWidget.m_BoxCollider</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Mesh">GrabWidget.m_Mesh</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_HighlightMeshXfs">GrabWidget.m_HighlightMeshXfs</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_ValidSnapRotationStickyAngle">GrabWidget.m_ValidSnapRotationStickyAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_SnapGhostMaterial">GrabWidget.m_SnapGhostMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Registered">GrabWidget.m_Registered</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_ShowTimer">GrabWidget.m_ShowTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_CurrentState">GrabWidget.m_CurrentState</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Velocity_LS">GrabWidget.m_Velocity_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_AngularVelocity_LS">GrabWidget.m_AngularVelocity_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_UserInteracting">GrabWidget.m_UserInteracting</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_UserTwoHandGrabbing">GrabWidget.m_UserTwoHandGrabbing</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_InteractingController">GrabWidget.m_InteractingController</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_SnapEnabledTimeStamp">GrabWidget.m_SnapEnabledTimeStamp</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_SnappingToHome">GrabWidget.m_SnappingToHome</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_SnapDriftCancel">GrabWidget.m_SnapDriftCancel</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_BaseSnapRotation">GrabWidget.m_BaseSnapRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_IsSpinningFreely">GrabWidget.m_IsSpinningFreely</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Restoring">GrabWidget.m_Restoring</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_TossTimer">GrabWidget.m_TossTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_NonScaleChild">GrabWidget.m_NonScaleChild</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_HighlightMeshFilters">GrabWidget.m_HighlightMeshFilters</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_ActiveTint">GrabWidget.m_ActiveTint</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_BackupLayer">GrabWidget.m_BackupLayer</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_BatchId">GrabWidget.m_BatchId</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_xfIntroAnimSpawn_LS">GrabWidget.m_xfIntroAnimSpawn_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_xfIntroAnimTarget_LS">GrabWidget.m_xfIntroAnimTarget_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_IntroAnimValue">GrabWidget.m_IntroAnimValue</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_IntroAnimSpeed">GrabWidget.m_IntroAnimSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Pinned">GrabWidget.m_Pinned</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Pin">GrabWidget.m_Pin</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_PinScalar">GrabWidget.m_PinScalar</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_ValidSnapRotations_SS">GrabWidget.m_ValidSnapRotations_SS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_PrevValidSnapRotationIndex">GrabWidget.m_PrevValidSnapRotationIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_SnapGhost">GrabWidget.m_SnapGhost</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_bWasSnapping">GrabWidget.m_bWasSnapping</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_CustomShowHide">GrabWidget.m_CustomShowHide</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_GrabCollider">GrabWidget.m_GrabCollider</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_InitialMaterials">GrabWidget.m_InitialMaterials</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_NewMaterials">GrabWidget.m_NewMaterials</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_WidgetRenderers">GrabWidget.m_WidgetRenderers</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Keywords">GrabWidget.m_Keywords</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_Highlighted">GrabWidget.m_Highlighted</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_OldHighlighted">GrabWidget.m_OldHighlighted</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_m_IntroAnimState">GrabWidget.m_IntroAnimState</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Canvas">GrabWidget.Canvas</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AllowTwoHandGrab">GrabWidget.AllowTwoHandGrab</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AllowPinning">GrabWidget.AllowPinning</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AllowDormancy">GrabWidget.AllowDormancy</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_PinScalar">GrabWidget.PinScalar</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsSpinningFreely">GrabWidget.IsSpinningFreely</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Restoring">GrabWidget.Restoring</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Pinned">GrabWidget.Pinned</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_HapticDuration">GrabWidget.HapticDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_BatchId">GrabWidget.BatchId</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Group">GrabWidget.Group</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SnapEnabled">GrabWidget.SnapEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Showing">GrabWidget.Showing</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_InactiveGrey">GrabWidget.InactiveGrey</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Velocity_GS">GrabWidget.Velocity_GS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AngularVelocity_GS">GrabWidget.AngularVelocity_GS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GrabCollider">GrabWidget.GrabCollider</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CenterOfMassTransform">GrabWidget.CenterOfMassTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CenterOfMassPose_OS">GrabWidget.CenterOfMassPose_OS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CenterOfMassPose_LS">GrabWidget.CenterOfMassPose_LS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GrabTransform_GS">GrabWidget.GrabTransform_GS</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_LocalTransform">GrabWidget.LocalTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CustomDimension">GrabWidget.CustomDimension</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetScaleAxis_Vector3_Vector3_Vector3__System_Single__">GrabWidget.GetScaleAxis(Vector3, Vector3, Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetBounds_SelectionCanvasSpace">GrabWidget.GetBounds_SelectionCanvasSpace()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsUserInteracting_TiltBrush_InputManager_ControllerName_">GrabWidget.IsUserInteracting(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_UserInteracting_System_Boolean_TiltBrush_InputManager_ControllerName_">GrabWidget.UserInteracting(Boolean, InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_UserTwoHandGrabbing">GrabWidget.UserTwoHandGrabbing</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SetUserTwoHandGrabbing_System_Boolean_TiltBrush_InputManager_ControllerName_TiltBrush_InputManager_ControllerName_System_Boolean_">GrabWidget.SetUserTwoHandGrabbing(Boolean, InputManager.ControllerName, InputManager.ControllerName, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsCollisionEnabled">GrabWidget.IsCollisionEnabled()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsMoving">GrabWidget.IsMoving()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SetCanvas_TiltBrush_CanvasScript_">GrabWidget.SetCanvas(CanvasScript)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_TrySetCanvasKeywordsFromObject_Transform_">GrabWidget.TrySetCanvasKeywordsFromObject(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SetVelocities_Vector3_Vector3_Vector3_">GrabWidget.SetVelocities(Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_ClearVelocities">GrabWidget.ClearVelocities()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetShowRatio">GrabWidget.GetShowRatio()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Start">GrabWidget.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnHideStart">GrabWidget.OnHideStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Show_System_Boolean_System_Boolean_">GrabWidget.Show(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Clone">GrabWidget.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_HaltDrift">GrabWidget.HaltDrift()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsAvailable">GrabWidget.IsAvailable()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsTossed">GrabWidget.IsTossed()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_IsHiding">GrabWidget.IsHiding()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Hide">GrabWidget.Hide()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_VerifyVisibleState_TiltBrush_MoveWidgetCommand_">GrabWidget.VerifyVisibleState(MoveWidgetCommand)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CloneInitialMaterials_TiltBrush_GrabWidget_">GrabWidget.CloneInitialMaterials(GrabWidget)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_HideNow">GrabWidget.HideNow()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_WithUnitScale_TiltBrush_TrTransform_">GrabWidget.WithUnitScale(TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_RecordAndSetSize_System_Single_">GrabWidget.RecordAndSetSize(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_RecordAndSetPosRot_TiltBrush_TrTransform_">GrabWidget.RecordAndSetPosRot(TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetGrabbedTrTransform">GrabWidget.GetGrabbedTrTransform()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_InitiateSnapping">GrabWidget.InitiateSnapping()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_FinishSnapping">GrabWidget.FinishSnapping()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetSnappedTransform_TiltBrush_TrTransform_">GrabWidget.GetSnappedTransform(TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetBestSnapRotationIndex_Quaternion_">GrabWidget.GetBestSnapRotationIndex(Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_InitSnapGhost_Transform_Transform_">GrabWidget.InitSnapGhost(Transform, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetHomeSnapLocation_Quaternion_">GrabWidget.GetHomeSnapLocation(Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetDesiredTransform_TiltBrush_TrTransform_">GrabWidget.GetDesiredTransform(TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnEndUpdateWithDesiredTransform">GrabWidget.OnEndUpdateWithDesiredTransform()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_PinFromSave">GrabWidget.PinFromSave()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SetPinned_System_Boolean_System_Boolean_">GrabWidget.SetPinned(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_Pin_System_Boolean_System_Boolean_">GrabWidget.Pin(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_VisualizePinState">GrabWidget.VisualizePinState()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_RegisterHighlight">GrabWidget.RegisterHighlight()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_UnregisterHighlight">GrabWidget.UnregisterHighlight()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_HasHoverInteractions">GrabWidget.HasHoverInteractions()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AssignHoverControllerMaterials_TiltBrush_InputManager_ControllerName_">GrabWidget.AssignHoverControllerMaterials(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AssignControllerMaterials_TiltBrush_InputManager_ControllerName_">GrabWidget.AssignControllerMaterials(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_PointInCollider_Vector3_">GrabWidget.PointInCollider(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnTossComplete">GrabWidget.OnTossComplete()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_InitIntroAnim_TiltBrush_TrTransform_TiltBrush_TrTransform_System_Boolean_System_Nullable_Quaternion__">GrabWidget.InitIntroAnim(TrTransform, TrTransform, Boolean, Nullable&lt;Quaternion&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_UpdateIntroAnimState">GrabWidget.UpdateIntroAnimState()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_UpdateIntroAnim">GrabWidget.UpdateIntroAnim()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnPreDestroy">GrabWidget.OnPreDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnDestroy">GrabWidget.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnUserBeginInteracting">GrabWidget.OnUserBeginInteracting()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnUserEndInteracting">GrabWidget.OnUserEndInteracting()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnUserBeginTwoHandGrab_Vector3_Vector3_System_Boolean_">GrabWidget.OnUserBeginTwoHandGrab(Vector3, Vector3, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnUserEndTwoHandGrab">GrabWidget.OnUserEndTwoHandGrab()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SetSignedWidgetSize_System_Single_">GrabWidget.SetSignedWidgetSize(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_HasGPUIntersectionObject">GrabWidget.HasGPUIntersectionObject()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_SetGPUIntersectionObjectLayer_System_Int32_">GrabWidget.SetGPUIntersectionObjectLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_RestoreGPUIntersectionObjectLayer">GrabWidget.RestoreGPUIntersectionObjectLayer()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CanGrabDuringDeselection">GrabWidget.CanGrabDuringDeselection()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_RecordAndApplyScaleToAxis_System_Single_TiltBrush_GrabWidget_Axis_">GrabWidget.RecordAndApplyScaleToAxis(Single, GrabWidget.Axis)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_CanSnapToHome">GrabWidget.CanSnapToHome()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_RestoreGameObjectLayer_System_Int32_">GrabWidget.RestoreGameObjectLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_DistanceToCollider_Ray_System_Single__">GrabWidget.DistanceToCollider(Ray, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_AllowHideWithToss_System_Boolean_">GrabWidget.AllowHideWithToss(Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_Media2dWidget_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Media2dWidget : MediaWidget</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_Background" data-uid="TiltBrush.Media2dWidget.m_Background">m_Background</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform m_Background</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_BaseScale" data-uid="TiltBrush.Media2dWidget.m_BaseScale">m_BaseScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 m_BaseScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_BGDist" data-uid="TiltBrush.Media2dWidget.m_BGDist">m_BGDist</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_BGDist</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_BGThickness" data-uid="TiltBrush.Media2dWidget.m_BGThickness">m_BGThickness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_BGThickness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_ColliderBloat" data-uid="TiltBrush.Media2dWidget.m_ColliderBloat">m_ColliderBloat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_ColliderBloat</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_HomeZFightingOffset" data-uid="TiltBrush.Media2dWidget.m_HomeZFightingOffset">m_HomeZFightingOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_HomeZFightingOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_ImageQuad" data-uid="TiltBrush.Media2dWidget.m_ImageQuad">m_ImageQuad</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Renderer m_ImageQuad</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_MaxHomeSnapDistance" data-uid="TiltBrush.Media2dWidget.m_MaxHomeSnapDistance">m_MaxHomeSnapDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const float m_MaxHomeSnapDistance = 0.001F</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_MeshScalar" data-uid="TiltBrush.Media2dWidget.m_MeshScalar">m_MeshScalar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_MeshScalar</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_MinTextSize" data-uid="TiltBrush.Media2dWidget.m_MinTextSize">m_MinTextSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_MinTextSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_Missing" data-uid="TiltBrush.Media2dWidget.m_Missing">m_Missing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform m_Missing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_MissingInfo" data-uid="TiltBrush.Media2dWidget.m_MissingInfo">m_MissingInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected (string fileName, float aspectRatio)? m_MissingInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Single</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_MissingQuestionMark" data-uid="TiltBrush.Media2dWidget.m_MissingQuestionMark">m_MissingQuestionMark</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject m_MissingQuestionMark</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_MissingText" data-uid="TiltBrush.Media2dWidget.m_MissingText">m_MissingText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TextMesh m_MissingText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMesh</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_NoImageTexture" data-uid="TiltBrush.Media2dWidget.m_NoImageTexture">m_NoImageTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Texture2D m_NoImageTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_NumVertsTrackedByWidgetManager" data-uid="TiltBrush.Media2dWidget.m_NumVertsTrackedByWidgetManager">m_NumVertsTrackedByWidgetManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int m_NumVertsTrackedByWidgetManager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_QuestionMarkScalar" data-uid="TiltBrush.Media2dWidget.m_QuestionMarkScalar">m_QuestionMarkScalar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_QuestionMarkScalar</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_StartScale" data-uid="TiltBrush.Media2dWidget.m_StartScale">m_StartScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_StartScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_TextRenderer" data-uid="TiltBrush.Media2dWidget.m_TextRenderer">m_TextRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Renderer m_TextRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_TiltMeterCost" data-uid="TiltBrush.Media2dWidget.m_TiltMeterCost">m_TiltMeterCost</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int m_TiltMeterCost</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_Media2dWidget_m_TransitionScale" data-uid="TiltBrush.Media2dWidget.m_TransitionScale">m_TransitionScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_TransitionScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_Media2dWidget_AspectRatio_" data-uid="TiltBrush.Media2dWidget.AspectRatio*"></a>
+  <h4 id="TiltBrush_Media2dWidget_AspectRatio" data-uid="TiltBrush.Media2dWidget.AspectRatio">AspectRatio</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract float? AspectRatio { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_Media2dWidget_HomeSnapOffset_" data-uid="TiltBrush.Media2dWidget.HomeSnapOffset*"></a>
+  <h4 id="TiltBrush_Media2dWidget_HomeSnapOffset" data-uid="TiltBrush.Media2dWidget.HomeSnapOffset">HomeSnapOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Vector3 HomeSnapOffset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_HomeSnapOffset">GrabWidget.HomeSnapOffset</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_ImageTexture_" data-uid="TiltBrush.Media2dWidget.ImageTexture*"></a>
+  <h4 id="TiltBrush_Media2dWidget_ImageTexture" data-uid="TiltBrush.Media2dWidget.ImageTexture">ImageTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture ImageTexture { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_Media2dWidget_MaxAxisScale_" data-uid="TiltBrush.Media2dWidget.MaxAxisScale*"></a>
+  <h4 id="TiltBrush_Media2dWidget_MaxAxisScale" data-uid="TiltBrush.Media2dWidget.MaxAxisScale">MaxAxisScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float MaxAxisScale { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_MaxAxisScale">GrabWidget.MaxAxisScale</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_NumVertsTrackedByWidgetManager_" data-uid="TiltBrush.Media2dWidget.NumVertsTrackedByWidgetManager*"></a>
+  <h4 id="TiltBrush_Media2dWidget_NumVertsTrackedByWidgetManager" data-uid="TiltBrush.Media2dWidget.NumVertsTrackedByWidgetManager">NumVertsTrackedByWidgetManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumVertsTrackedByWidgetManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_Media2dWidget_SaveTransform_" data-uid="TiltBrush.Media2dWidget.SaveTransform*"></a>
+  <h4 id="TiltBrush_Media2dWidget_SaveTransform" data-uid="TiltBrush.Media2dWidget.SaveTransform">SaveTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TrTransform SaveTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_Media2dWidget_Activate_" data-uid="TiltBrush.Media2dWidget.Activate*"></a>
+  <h4 id="TiltBrush_Media2dWidget_Activate_System_Boolean_" data-uid="TiltBrush.Media2dWidget.Activate(System.Boolean)">Activate(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Activate(bool bActive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bActive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_Activate_System_Boolean_">MediaWidget.Activate(Boolean)</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_Awake_" data-uid="TiltBrush.Media2dWidget.Awake*"></a>
+  <h4 id="TiltBrush_Media2dWidget_Awake" data-uid="TiltBrush.Media2dWidget.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_Awake">MediaWidget.Awake()</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_GetActivationScore_" data-uid="TiltBrush.Media2dWidget.GetActivationScore*"></a>
+  <h4 id="TiltBrush_Media2dWidget_GetActivationScore_Vector3_TiltBrush_InputManager_ControllerName_" data-uid="TiltBrush.Media2dWidget.GetActivationScore(Vector3,TiltBrush.InputManager.ControllerName)">GetActivationScore(Vector3, InputManager.ControllerName)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetActivationScore(Vector3 vControllerPos, InputManager.ControllerName name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">vControllerPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TiltBrush.InputManager.ControllerName.html">InputManager.ControllerName</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetActivationScore_Vector3_TiltBrush_InputManager_ControllerName_">GrabWidget.GetActivationScore(Vector3, InputManager.ControllerName)</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_GetOriginHomeXf_" data-uid="TiltBrush.Media2dWidget.GetOriginHomeXf*"></a>
+  <h4 id="TiltBrush_Media2dWidget_GetOriginHomeXf" data-uid="TiltBrush.Media2dWidget.GetOriginHomeXf">GetOriginHomeXf()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Transform GetOriginHomeXf()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetOriginHomeXf">GrabWidget.GetOriginHomeXf()</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_GetTiltMeterCost_" data-uid="TiltBrush.Media2dWidget.GetTiltMeterCost*"></a>
+  <h4 id="TiltBrush_Media2dWidget_GetTiltMeterCost" data-uid="TiltBrush.Media2dWidget.GetTiltMeterCost">GetTiltMeterCost()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetTiltMeterCost()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_GetTiltMeterCost">GrabWidget.GetTiltMeterCost()</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_InitPin_" data-uid="TiltBrush.Media2dWidget.InitPin*"></a>
+  <h4 id="TiltBrush_Media2dWidget_InitPin" data-uid="TiltBrush.Media2dWidget.InitPin">InitPin()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InitPin()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_InitPin">MediaWidget.InitPin()</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_OnShow_" data-uid="TiltBrush.Media2dWidget.OnShow*"></a>
+  <h4 id="TiltBrush_Media2dWidget_OnShow" data-uid="TiltBrush.Media2dWidget.OnShow">OnShow()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnShow()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnShow">GrabWidget.OnShow()</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_OnUpdate_" data-uid="TiltBrush.Media2dWidget.OnUpdate*"></a>
+  <h4 id="TiltBrush_Media2dWidget_OnUpdate" data-uid="TiltBrush.Media2dWidget.OnUpdate">OnUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.GrabWidget.html#TiltBrush_GrabWidget_OnUpdate">GrabWidget.OnUpdate()</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_SetMissing_" data-uid="TiltBrush.Media2dWidget.SetMissing*"></a>
+  <h4 id="TiltBrush_Media2dWidget_SetMissing_System_Single_System_String_" data-uid="TiltBrush.Media2dWidget.SetMissing(System.Single,System.String)">SetMissing(Single, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMissing(float aspectRatio, string fileName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">aspectRatio</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_Media2dWidget_SetWidgetSizeInternal_" data-uid="TiltBrush.Media2dWidget.SetWidgetSizeInternal*"></a>
+  <h4 id="TiltBrush_Media2dWidget_SetWidgetSizeInternal_System_Single_" data-uid="TiltBrush.Media2dWidget.SetWidgetSizeInternal(System.Single)">SetWidgetSizeInternal(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SetWidgetSizeInternal(float fScale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">fScale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_SetWidgetSizeInternal_System_Single_">MediaWidget.SetWidgetSizeInternal(Single)</a></div>
+  
+  
+  <a id="TiltBrush_Media2dWidget_UpdateScale_" data-uid="TiltBrush.Media2dWidget.UpdateScale*"></a>
+  <h4 id="TiltBrush_Media2dWidget_UpdateScale" data-uid="TiltBrush.Media2dWidget.UpdateScale">UpdateScale()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void UpdateScale()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.MediaWidget.html#TiltBrush_MediaWidget_UpdateScale">MediaWidget.UpdateScale()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

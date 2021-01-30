@@ -1,0 +1,909 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ToggleStrokeModificationTool
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ToggleStrokeModificationTool
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.ToggleStrokeModificationTool">
+  
+  
+  <h1 id="TiltBrush_ToggleStrokeModificationTool" data-uid="TiltBrush.ToggleStrokeModificationTool" class="text-break">Class ToggleStrokeModificationTool
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.BaseTool.html">BaseTool</a></div>
+    <div class="level2"><a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html">BaseStrokeIntersectionTool</a></div>
+    <div class="level3"><a class="xref" href="TiltBrush.StrokeModificationTool.html">StrokeModificationTool</a></div>
+    <div class="level4"><span class="xref">ToggleStrokeModificationTool</span></div>
+      <div class="level5"><a class="xref" href="TiltBrush.PinTool.html">PinTool</a></div>
+      <div class="level5"><a class="xref" href="TiltBrush.SelectionTool.html">SelectionTool</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_ToolTransform">StrokeModificationTool.m_ToolTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_ToolDescriptionText">StrokeModificationTool.m_ToolDescriptionText</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_SizeRange">StrokeModificationTool.m_SizeRange</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_CurrentSize">StrokeModificationTool.m_CurrentSize</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_LockToController">StrokeModificationTool.m_LockToController</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_ToolColdMaterial">StrokeModificationTool.m_ToolColdMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_ToolHotMaterial">StrokeModificationTool.m_ToolHotMaterial</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_ToolWasHot">StrokeModificationTool.m_ToolWasHot</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_HapticInterval">StrokeModificationTool.m_HapticInterval</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_HapticSizeUp">StrokeModificationTool.m_HapticSizeUp</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_HapticSizeDown">StrokeModificationTool.m_HapticSizeDown</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_AudioVolumeMax">StrokeModificationTool.m_AudioVolumeMax</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_AudioAttackSpeed">StrokeModificationTool.m_AudioAttackSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_m_ModifyStrokeMinTriggerTime">StrokeModificationTool.m_ModifyStrokeMinTriggerTime</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_IsHot">StrokeModificationTool.IsHot</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_RequestPlayAudio_System_Boolean_">StrokeModificationTool.RequestPlayAudio(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_HardStopAudio">StrokeModificationTool.HardStopAudio()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_ShouldShowTouch">StrokeModificationTool.ShouldShowTouch()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_AdditionalGpuIntersectionLayerMasks">StrokeModificationTool.AdditionalGpuIntersectionLayerMasks()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_UpdateTool">StrokeModificationTool.UpdateTool()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_UpdateSize_System_Single_">StrokeModificationTool.UpdateSize(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_GetSize">StrokeModificationTool.GetSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_GetSize01">StrokeModificationTool.GetSize01()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_PlayModifyStrokeSound">StrokeModificationTool.PlayModifyStrokeSound()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_AllowsWidgetManipulation">StrokeModificationTool.AllowsWidgetManipulation()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_PointerForwardOffset">BaseStrokeIntersectionTool.m_PointerForwardOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_CurrentCanvas">BaseStrokeIntersectionTool.m_CurrentCanvas</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_PreviousCanvas">BaseStrokeIntersectionTool.m_PreviousCanvas</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_DetectionStopwatch">BaseStrokeIntersectionTool.m_DetectionStopwatch</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_DetectionObjectIndex">BaseStrokeIntersectionTool.m_DetectionObjectIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_DetectionVertIndex">BaseStrokeIntersectionTool.m_DetectionVertIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_BatchPoolIndex">BaseStrokeIntersectionTool.m_BatchPoolIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_BatchObjectIndex">BaseStrokeIntersectionTool.m_BatchObjectIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_BatchVertGroupIndex">BaseStrokeIntersectionTool.m_BatchVertGroupIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_BatchTriIndexIndex">BaseStrokeIntersectionTool.m_BatchTriIndexIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_TimeSlice">BaseStrokeIntersectionTool.m_TimeSlice</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_TimeSliceInTicks">BaseStrokeIntersectionTool.m_TimeSliceInTicks</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_TimesUp">BaseStrokeIntersectionTool.m_TimesUp</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_m_ResetDetection">BaseStrokeIntersectionTool.m_ResetDetection</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_ResetDetection">BaseStrokeIntersectionTool.ResetDetection()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_HandleIntersection_TiltBrush_Stroke_">BaseStrokeIntersectionTool.HandleIntersection(Stroke)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_HandleIntersectionWithBatchedStroke_TiltBrush_BatchSubset_">BaseStrokeIntersectionTool.HandleIntersectionWithBatchedStroke(BatchSubset)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_HandleIntersectionWithWidget_TiltBrush_GrabWidget_">BaseStrokeIntersectionTool.HandleIntersectionWithWidget(GrabWidget)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_HandleIntersectionWithSolitaryObject_GameObject_">BaseStrokeIntersectionTool.HandleIntersectionWithSolitaryObject(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_ClearGpuFutureLists">BaseStrokeIntersectionTool.ClearGpuFutureLists()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_UpdateBatchedBrushDetection_Vector3_">BaseStrokeIntersectionTool.UpdateBatchedBrushDetection(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_UpdateSolitaryBrushDetection_Vector3_">BaseStrokeIntersectionTool.UpdateSolitaryBrushDetection(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_DebugDrawBounds">BaseStrokeIntersectionTool.DebugDrawBounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_DebugDrawBox_Bounds_Vector3_Color_">BaseStrokeIntersectionTool.DebugDrawBox(Bounds, Vector3, Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_Type">BaseTool.m_Type</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ShowTransformGizmo">BaseTool.m_ShowTransformGizmo</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ExitOnAbortCommand">BaseTool.m_ExitOnAbortCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ScalingSupported">BaseTool.m_ScalingSupported</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ButtonHoldDuration">BaseTool.ButtonHoldDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_Parent">BaseTool.m_Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_SketchSurface">BaseTool.m_SketchSurface</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ParentBaseScale">BaseTool.m_ParentBaseScale</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_RequestExit">BaseTool.m_RequestExit</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_EatInput">BaseTool.m_EatInput</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_AllowDrawing">BaseTool.m_AllowDrawing</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_m_ToolHidden">BaseTool.m_ToolHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_IsEatingInput">BaseTool.IsEatingInput</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ExitRequested">BaseTool.ExitRequested()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ToolHidden">BaseTool.ToolHidden()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_EatInput">BaseTool.EatInput()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowDrawing_System_Boolean_">BaseTool.AllowDrawing(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ShouldShowPointer">BaseTool.ShouldShowPointer()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_Awake">BaseTool.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_OnDestroy">BaseTool.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_OnSwap">BaseTool.OnSwap()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_CanShowPromosWhileInUse">BaseTool.CanShowPromosWhileInUse()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AssignControllerMaterials_TiltBrush_InputManager_ControllerName_">BaseTool.AssignControllerMaterials(InputManager.ControllerName)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_ScalingSupported">BaseTool.ScalingSupported()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_Monitor">BaseTool.Monitor()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_GetSizeRatio_TiltBrush_InputManager_ControllerName_TiltBrush_VrInput_">BaseTool.GetSizeRatio(InputManager.ControllerName, VrInput)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SetColor_Color_">BaseTool.SetColor(Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SetExtraText_System_String_">BaseTool.SetExtraText(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SetToolProgress_System_Single_">BaseTool.SetToolProgress(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_BacksideActive_System_Boolean_">BaseTool.BacksideActive(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_LockPointerToSketchSurface">BaseTool.LockPointerToSketchSurface()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_InputBlocked">BaseTool.InputBlocked()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowWorldTransformation">BaseTool.AllowWorldTransformation()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AvailableDuringLoading">BaseTool.AvailableDuringLoading()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_HidePanels">BaseTool.HidePanels()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_BlockPinCushion">BaseTool.BlockPinCushion()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_AllowDefaultToolToggle">BaseTool.AllowDefaultToolToggle()</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_EnableRenderer_System_Boolean_">BaseTool.EnableRenderer(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_PointInTriangle_Vector3__Vector3__Vector3__Vector3__">BaseTool.PointInTriangle(Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SameSide_Vector3__Vector3__Vector3__Vector3__">BaseTool.SameSide(Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_SegmentSphereIntersection_Vector3_Vector3_Vector3_System_Single_">BaseTool.SegmentSphereIntersection(Vector3, Vector3, Vector3, Single)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_ToggleStrokeModificationTool_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ToggleStrokeModificationTool : StrokeModificationTool</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_CurrentlyHot" data-uid="TiltBrush.ToggleStrokeModificationTool.m_CurrentlyHot">m_CurrentlyHot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_CurrentlyHot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_HapticsToggleOff" data-uid="TiltBrush.ToggleStrokeModificationTool.m_HapticsToggleOff">m_HapticsToggleOff</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_HapticsToggleOff</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_HapticsToggleOn" data-uid="TiltBrush.ToggleStrokeModificationTool.m_HapticsToggleOn">m_HapticsToggleOn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_HapticsToggleOn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_HighlightMesh" data-uid="TiltBrush.ToggleStrokeModificationTool.m_HighlightMesh">m_HighlightMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Renderer m_HighlightMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_LastIntersectionTime" data-uid="TiltBrush.ToggleStrokeModificationTool.m_LastIntersectionTime">m_LastIntersectionTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_LastIntersectionTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_OffMesh" data-uid="TiltBrush.ToggleStrokeModificationTool.m_OffMesh">m_OffMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Renderer m_OffMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_OffRotationMesh" data-uid="TiltBrush.ToggleStrokeModificationTool.m_OffRotationMesh">m_OffRotationMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Renderer m_OffRotationMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_OnMesh" data-uid="TiltBrush.ToggleStrokeModificationTool.m_OnMesh">m_OnMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Renderer m_OnMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_OnRotationMesh" data-uid="TiltBrush.ToggleStrokeModificationTool.m_OnRotationMesh">m_OnRotationMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Renderer m_OnRotationMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_m_ToolHotOffMaterial" data-uid="TiltBrush.ToggleStrokeModificationTool.m_ToolHotOffMaterial">m_ToolHotOffMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Material m_ToolHotOffMaterial</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Material</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_CanAdjustSize_" data-uid="TiltBrush.ToggleStrokeModificationTool.CanAdjustSize*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_CanAdjustSize" data-uid="TiltBrush.ToggleStrokeModificationTool.CanAdjustSize">CanAdjustSize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanAdjustSize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_CanAdjustSize">BaseTool.CanAdjustSize()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_EnableTool_" data-uid="TiltBrush.ToggleStrokeModificationTool.EnableTool*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_EnableTool_System_Boolean_" data-uid="TiltBrush.ToggleStrokeModificationTool.EnableTool(System.Boolean)">EnableTool(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void EnableTool(bool bEnable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bEnable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_EnableTool_System_Boolean_">StrokeModificationTool.EnableTool(Boolean)</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_HapticFeedback_" data-uid="TiltBrush.ToggleStrokeModificationTool.HapticFeedback*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_HapticFeedback" data-uid="TiltBrush.ToggleStrokeModificationTool.HapticFeedback">HapticFeedback()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void HapticFeedback()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_HideTool_" data-uid="TiltBrush.ToggleStrokeModificationTool.HideTool*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_HideTool_System_Boolean_" data-uid="TiltBrush.ToggleStrokeModificationTool.HideTool(System.Boolean)">HideTool(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void HideTool(bool bHide)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bHide</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_HideTool_System_Boolean_">StrokeModificationTool.HideTool(Boolean)</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_Init_" data-uid="TiltBrush.ToggleStrokeModificationTool.Init*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_Init" data-uid="TiltBrush.ToggleStrokeModificationTool.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_Init">StrokeModificationTool.Init()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_IntersectionHappenedThisFrame_" data-uid="TiltBrush.ToggleStrokeModificationTool.IntersectionHappenedThisFrame*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_IntersectionHappenedThisFrame" data-uid="TiltBrush.ToggleStrokeModificationTool.IntersectionHappenedThisFrame">IntersectionHappenedThisFrame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void IntersectionHappenedThisFrame()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseStrokeIntersectionTool.html#TiltBrush_BaseStrokeIntersectionTool_IntersectionHappenedThisFrame">BaseStrokeIntersectionTool.IntersectionHappenedThisFrame()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_IsOn_" data-uid="TiltBrush.ToggleStrokeModificationTool.IsOn*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_IsOn" data-uid="TiltBrush.ToggleStrokeModificationTool.IsOn">IsOn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsOn()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_LateUpdateTool_" data-uid="TiltBrush.ToggleStrokeModificationTool.LateUpdateTool*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_LateUpdateTool" data-uid="TiltBrush.ToggleStrokeModificationTool.LateUpdateTool">LateUpdateTool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void LateUpdateTool()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.BaseTool.html#TiltBrush_BaseTool_LateUpdateTool">BaseTool.LateUpdateTool()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_OnAnimationSwitch_" data-uid="TiltBrush.ToggleStrokeModificationTool.OnAnimationSwitch*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_OnAnimationSwitch" data-uid="TiltBrush.ToggleStrokeModificationTool.OnAnimationSwitch">OnAnimationSwitch()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnAnimationSwitch()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_OnDoubleTap_" data-uid="TiltBrush.ToggleStrokeModificationTool.OnDoubleTap*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_OnDoubleTap" data-uid="TiltBrush.ToggleStrokeModificationTool.OnDoubleTap">OnDoubleTap()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDoubleTap()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_OnUpdateDetection_" data-uid="TiltBrush.ToggleStrokeModificationTool.OnUpdateDetection*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_OnUpdateDetection" data-uid="TiltBrush.ToggleStrokeModificationTool.OnUpdateDetection">OnUpdateDetection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUpdateDetection()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_ResetToggleAnimation_" data-uid="TiltBrush.ToggleStrokeModificationTool.ResetToggleAnimation*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_ResetToggleAnimation" data-uid="TiltBrush.ToggleStrokeModificationTool.ResetToggleAnimation">ResetToggleAnimation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ResetToggleAnimation()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_ResetToolRotation_" data-uid="TiltBrush.ToggleStrokeModificationTool.ResetToolRotation*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_ResetToolRotation" data-uid="TiltBrush.ToggleStrokeModificationTool.ResetToolRotation">ResetToolRotation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ResetToolRotation()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_SnapIntersectionObjectToController_" data-uid="TiltBrush.ToggleStrokeModificationTool.SnapIntersectionObjectToController*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_SnapIntersectionObjectToController" data-uid="TiltBrush.ToggleStrokeModificationTool.SnapIntersectionObjectToController">SnapIntersectionObjectToController()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SnapIntersectionObjectToController()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_SnapIntersectionObjectToController">StrokeModificationTool.SnapIntersectionObjectToController()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_StartToggleAnimation_" data-uid="TiltBrush.ToggleStrokeModificationTool.StartToggleAnimation*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_StartToggleAnimation" data-uid="TiltBrush.ToggleStrokeModificationTool.StartToggleAnimation">StartToggleAnimation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartToggleAnimation()</code></pre>
+  </div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_UpdateAudioVisuals_" data-uid="TiltBrush.ToggleStrokeModificationTool.UpdateAudioVisuals*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_UpdateAudioVisuals" data-uid="TiltBrush.ToggleStrokeModificationTool.UpdateAudioVisuals">UpdateAudioVisuals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void UpdateAudioVisuals()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_UpdateAudioVisuals">StrokeModificationTool.UpdateAudioVisuals()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_UpdateDetection_" data-uid="TiltBrush.ToggleStrokeModificationTool.UpdateDetection*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_UpdateDetection" data-uid="TiltBrush.ToggleStrokeModificationTool.UpdateDetection">UpdateDetection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void UpdateDetection()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.StrokeModificationTool.html#TiltBrush_StrokeModificationTool_UpdateDetection">StrokeModificationTool.UpdateDetection()</a></div>
+  
+  
+  <a id="TiltBrush_ToggleStrokeModificationTool_UpdateMesh_" data-uid="TiltBrush.ToggleStrokeModificationTool.UpdateMesh*"></a>
+  <h4 id="TiltBrush_ToggleStrokeModificationTool_UpdateMesh" data-uid="TiltBrush.ToggleStrokeModificationTool.UpdateMesh">UpdateMesh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UpdateMesh()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

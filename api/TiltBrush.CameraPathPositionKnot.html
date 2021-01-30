@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CameraPathPositionKnot
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CameraPathPositionKnot
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TiltBrush.CameraPathPositionKnot">
+  
+  
+  <h1 id="TiltBrush_CameraPathPositionKnot" data-uid="TiltBrush.CameraPathPositionKnot" class="text-break">Class CameraPathPositionKnot
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TiltBrush.CameraPathKnot.html">CameraPathKnot</a></div>
+    <div class="level2"><span class="xref">CameraPathPositionKnot</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_kDefaultControl">CameraPathKnot.kDefaultControl</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_ActivePathVisuals">CameraPathKnot.m_ActivePathVisuals</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_InactivePathVisuals">CameraPathKnot.m_InactivePathVisuals</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_GrabRadius">CameraPathKnot.m_GrabRadius</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_ActiveColor">CameraPathKnot.m_ActiveColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_InactiveColor">CameraPathKnot.m_InactiveColor</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_PathT">CameraPathKnot.PathT</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_DistanceAlongSegment">CameraPathKnot.m_DistanceAlongSegment</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_Type">CameraPathKnot.m_Type</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_Meshes">CameraPathKnot.m_Meshes</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_RenderHighlights">CameraPathKnot.m_RenderHighlights</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_m_InactiveRenderHighlights">CameraPathKnot.m_InactiveRenderHighlights</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_KnotType">CameraPathKnot.KnotType</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_DistanceAlongSegment">CameraPathKnot.DistanceAlongSegment</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_KnotXf">CameraPathKnot.KnotXf</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_OnScenePoseChanged_TiltBrush_TrTransform_TiltBrush_TrTransform_">CameraPathKnot.OnScenePoseChanged(TrTransform, TrTransform)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_SetPosition_Vector3_">CameraPathKnot.SetPosition(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_SetActivePathVisuals_System_Boolean_">CameraPathKnot.SetActivePathVisuals(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_KnotCollisionWithPoint_Vector3_">CameraPathKnot.KnotCollisionWithPoint(Vector3)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TiltBrush.html">TiltBrush</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TiltBrush_CameraPathPositionKnot_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CameraPathPositionKnot : CameraPathKnot</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_KnotMesh" data-uid="TiltBrush.CameraPathPositionKnot.m_KnotMesh">m_KnotMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform m_KnotMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_TangentControl" data-uid="TiltBrush.CameraPathPositionKnot.m_TangentControl">m_TangentControl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject[] m_TangentControl</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_TangentControlColor" data-uid="TiltBrush.CameraPathPositionKnot.m_TangentControlColor">m_TangentControlColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color m_TangentControlColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_TangentControlColorInactive" data-uid="TiltBrush.CameraPathPositionKnot.m_TangentControlColorInactive">m_TangentControlColorInactive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color m_TangentControlColorInactive</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_TangentControlMesh" data-uid="TiltBrush.CameraPathPositionKnot.m_TangentControlMesh">m_TangentControlMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject[] m_TangentControlMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_TangentRenderer" data-uid="TiltBrush.CameraPathPositionKnot.m_TangentRenderer">m_TangentRenderer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LineRenderer m_TangentRenderer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LineRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TiltBrush_CameraPathPositionKnot_m_TangentScalar" data-uid="TiltBrush.CameraPathPositionKnot.m_TangentScalar">m_TangentScalar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float m_TangentScalar</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_ScaledTangent_" data-uid="TiltBrush.CameraPathPositionKnot.ScaledTangent*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_ScaledTangent" data-uid="TiltBrush.CameraPathPositionKnot.ScaledTangent">ScaledTangent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 ScaledTangent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_TangentMagnitude_" data-uid="TiltBrush.CameraPathPositionKnot.TangentMagnitude*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_TangentMagnitude" data-uid="TiltBrush.CameraPathPositionKnot.TangentMagnitude">TangentMagnitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TangentMagnitude { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_ActivateTint_" data-uid="TiltBrush.CameraPathPositionKnot.ActivateTint*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_ActivateTint_System_Boolean_" data-uid="TiltBrush.CameraPathPositionKnot.ActivateTint(System.Boolean)">ActivateTint(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ActivateTint(bool active)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_ActivateTint_System_Boolean_">CameraPathKnot.ActivateTint(Boolean)</a></div>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_AsSerializable_" data-uid="TiltBrush.CameraPathPositionKnot.AsSerializable*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_AsSerializable" data-uid="TiltBrush.CameraPathPositionKnot.AsSerializable">AsSerializable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CameraPathPositionKnotMetadata AsSerializable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.CameraPathPositionKnotMetadata.html">CameraPathPositionKnotMetadata</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_Awake_" data-uid="TiltBrush.CameraPathPositionKnot.Awake*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_Awake" data-uid="TiltBrush.CameraPathPositionKnot.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_Awake">CameraPathKnot.Awake()</a></div>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_CollisionWithPoint_" data-uid="TiltBrush.CameraPathPositionKnot.CollisionWithPoint*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_CollisionWithPoint_Vector3_System_Int32__" data-uid="TiltBrush.CameraPathPositionKnot.CollisionWithPoint(Vector3,System.Int32@)">CollisionWithPoint(Vector3, out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float CollisionWithPoint(Vector3 point, out int control)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_CollisionWithPoint_Vector3_System_Int32__">CameraPathKnot.CollisionWithPoint(Vector3, out Int32)</a></div>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_GetGrabTransform_" data-uid="TiltBrush.CameraPathPositionKnot.GetGrabTransform*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_GetGrabTransform_System_Int32_" data-uid="TiltBrush.CameraPathPositionKnot.GetGrabTransform(System.Int32)">GetGrabTransform(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Transform GetGrabTransform(int control)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_GetGrabTransform_System_Int32_">CameraPathKnot.GetGrabTransform(Int32)</a></div>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_GetTangentMagnitudeFromControlXf_" data-uid="TiltBrush.CameraPathPositionKnot.GetTangentMagnitudeFromControlXf*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_GetTangentMagnitudeFromControlXf_TiltBrush_TrTransform_" data-uid="TiltBrush.CameraPathPositionKnot.GetTangentMagnitudeFromControlXf(TiltBrush.TrTransform)">GetTangentMagnitudeFromControlXf(TrTransform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetTangentMagnitudeFromControlXf(TrTransform controlXf)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TiltBrush.TrTransform.html">TrTransform</a></td>
+        <td><span class="parametername">controlXf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_RefreshVisuals_" data-uid="TiltBrush.CameraPathPositionKnot.RefreshVisuals*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_RefreshVisuals" data-uid="TiltBrush.CameraPathPositionKnot.RefreshVisuals">RefreshVisuals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RefreshVisuals()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_RefreshVisuals">CameraPathKnot.RefreshVisuals()</a></div>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_RegisterHighlight_" data-uid="TiltBrush.CameraPathPositionKnot.RegisterHighlight*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_RegisterHighlight_System_Int32_System_Boolean_" data-uid="TiltBrush.CameraPathPositionKnot.RegisterHighlight(System.Int32,System.Boolean)">RegisterHighlight(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RegisterHighlight(int control, bool showInactive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">control</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">showInactive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_RegisterHighlight_System_Int32_System_Boolean_">CameraPathKnot.RegisterHighlight(Int32, Boolean)</a></div>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_SetVisuallySpecial_" data-uid="TiltBrush.CameraPathPositionKnot.SetVisuallySpecial*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_SetVisuallySpecial_System_Boolean_" data-uid="TiltBrush.CameraPathPositionKnot.SetVisuallySpecial(System.Boolean)">SetVisuallySpecial(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVisuallySpecial(bool special)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">special</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TiltBrush_CameraPathPositionKnot_UnregisterHighlight_" data-uid="TiltBrush.CameraPathPositionKnot.UnregisterHighlight*"></a>
+  <h4 id="TiltBrush_CameraPathPositionKnot_UnregisterHighlight" data-uid="TiltBrush.CameraPathPositionKnot.UnregisterHighlight">UnregisterHighlight()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UnregisterHighlight()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TiltBrush.CameraPathKnot.html#TiltBrush_CameraPathKnot_UnregisterHighlight">CameraPathKnot.UnregisterHighlight()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
