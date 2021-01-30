@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: docfx-action
         uses: nikeee/docfx-action@v1.0.0
+        with:
+          args: "./docfx.json"
         
       - name: Netlify Actions
         uses: nwtgck/actions-netlify@v1.1.11
